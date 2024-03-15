@@ -18,7 +18,7 @@ hero:
       link: https://github.com/sothx/mipad-magic-window
 
 features:
-  - title: 让平板不再停留于只看电影只打游戏
+  - title: 平板不再停留于只看电影只打游戏
     details: 模块集成了近 7000+ 应用适配规则
   - title: 600+ 应用深度适配
     details: 超 600+ 常用应用精适配
