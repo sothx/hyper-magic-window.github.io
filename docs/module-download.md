@@ -4,35 +4,35 @@ outline: deep
 
 ## 版本说明
 
-- 小米平板通用版（安卓12L+）
+#### 小米平板通用版（安卓12L+）
 
 适配红米平板,小米平板以及各种基于MIUI14 For Pad / Hyper OS for Pad移植包的机型，均可刷此模块，正常情况下不会遇到任何问题，仅在我自己的小米平板6 Pro上测试通过，其他机型不保证不会出现卡米、变砖的可能性，建议自己有充足的玩机、救砖知识再去使用本模块。
 
 **推荐机型系统列表(2024-03-16更新)**
 
-Xiaomi Pad 6 [Hyper OS For Pad 1.0.2.0 +]
-Xiaomi Pad 6 Pro [Hyper OS For Pad 1.0.2.0 +]
-Xiaomi Pad 5 Pro 12.4 [Hyper OS For Pad 1.0.1.0 +]
-Redmi Pad SE [Hyper OS For Pad  1.0.2.0 +]
-Redmi Pad [Hyper OS For Pad  1.0.3.0 +]
-Xiaomi Pad 6 Max 14 [所有版本]
+- Xiaomi Pad 6 [Hyper OS For Pad 1.0.2.0 +]
+- Xiaomi Pad 6 Pro [Hyper OS For Pad 1.0.2.0 +]
+- Xiaomi Pad 5 Pro 12.4 [Hyper OS For Pad 1.0.1.0 +]
+- Redmi Pad SE [Hyper OS For Pad  1.0.2.0 +]
+- Redmi Pad [Hyper OS For Pad  1.0.3.0 +]
+- Xiaomi Pad 6 Max 14 [所有版本]
 
 
-- 小米平板6S Pro专版（安卓12L+,适配3：2比例平板）
+#### 小米平板6S Pro专版（安卓12L+,适配3：2比例平板）
 
 基本与小米平板通用版没有区别，仅针对部分应用在3：2比例下体验不佳的情况进行差异化适配。
 
 **推荐机型系统列表(2024-03-16更新)**
-Xiaomi Pad 6S Pro [Hyper For Pad 1.0.4.0 +]
+- Xiaomi Pad 6S Pro [Hyper For Pad 1.0.4.0 +]
 
-- 小米折叠屏专版（安卓12L+,仅Mix Fold系列）
+#### 小米折叠屏专版（安卓12L+,仅Mix Fold系列）
 
-适配小米Mix Fold 折叠屏系列，仅推荐折叠屏的机型刷。
+适配小米Mix Fold 折叠屏系列，仅推荐折叠屏的机型。
 
 **推荐机型系统列表(2024-03-16更新)**
-Xiaomi Mix Fold 1 [所有版本]
-Xiaomi Mix Fold 2 [所有版本]
-Xiaomi Mix Fold 3 [所有版本]
+- Xiaomi Mix Fold 1 [所有版本]
+- Xiaomi Mix Fold 2 [所有版本]
+- Xiaomi Mix Fold 3 [所有版本]
 
 - 小米平板安卓13专版
 
