@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "完美横屏应用计划(修改版)"
+  name: "完美横屏应用计划"
   text: "7000+ 应用适配"
   tagline: 适用于 Hyper OS For Pad/Fold 的Magisk模块
   actions:
