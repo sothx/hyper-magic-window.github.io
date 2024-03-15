@@ -8,7 +8,7 @@ hero:
   tagline: 适用于 Hyper OS For Pad/Fold 的Magisk模块
   actions:
     - theme: brand
-      text: 下载模块
+      text: 下载
       link: /module-download
     # - theme: brand
     #   text: Markdown Examples
