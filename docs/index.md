@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "完美横屏应用计划"
   # text: "适用于 Hyper OS For Pad/Fold"
-  tagline: 适用于 Hyper OS For Pad/Fold
+  tagline: 适用于 Hyper OS For Pad/Fold 的Magisk模块
   actions:
     - theme: brand
       text: Markdown Examples
