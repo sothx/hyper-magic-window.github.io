@@ -38,10 +38,10 @@ outline: deep
 
 ### 小米平板安卓13专版(无左右滑动条)
 
-适配小米平板安卓13(除小米平板6 Max 14)下不支持左右滑动条的平行视界，推荐安卓13安装此版本，该版本针对安卓13下平行视界部分应用显示不全的问题有做单独适配优化。
+适配小米平板安卓13(除小米平板6 Max 14)下不支持左右滑动条的平行视界，推荐Android 13安装此版本，该版本针对Android 13下平行视界部分应用显示不全的问题有做单独适配优化。
 
 **推荐机型系统列表(2024-03-16更新)**
-- 除Xiaomi Pad 6 Max 14 以外的所有安卓13、安卓12的MIUI For Pad
+- 除Xiaomi Pad 6 Max 14 以外的所有Android 13、Android 12的MIUI For Pad,以及Xiaomi Pad 5系列(除 Xiaomi Pad 5 Pro 12.4 外)基于Android 13 底层的Hyper OS For Pad
 
 ### 小米平板安卓11专版
 
@@ -49,7 +49,7 @@ outline: deep
 ```bash
 /data/adb/modules/MIUI_MagicWindow+/common/system/users/0/magic_window_setting_config.xml
 ```
-​搜索要删除的应用的包名，定为到行，将该应用的miuiMagicWinEnabled设置为false即可，也可以反馈给我，在后续版本中永久移除该应用的平行视界适配。
+搜索要删除的应用的包名，定为到行，将该应用的miuiMagicWinEnabled设置为false即可，也可以反馈给我，在后续版本中永久移除该应用的平行视界适配。
 
 **推荐机型系统列表**
 - 所有安卓11的MIUI For Pad
@@ -65,6 +65,15 @@ outline: deep
 ## 下载
 
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
+    -   小米平板通用版(pad-x.xx.xx.zip)
+    -   小米平板6S Pro专版(pad-ratioOf3To2-x.xx.xx.zip)
+    -   小米折叠屏专版(fold-x.xx.xx.zip)
+    -   小米平板安卓13专版(pad-not-dragable-x.xx.xx.zip)
+    -   小米平板安卓11专版(pad-magicWindow-x.xx.xx.zip)
+    -   MIUI 14下的6 Max移植包专版(transplant-x.xx.xx.zip)
+    -   小米平板安卓12L以上的卸载模块(uninstall-pad-x.xx.xx.zip)
+    -   小米平板安卓11的卸载模块(uninstall-pad-magicWindow-x.xx.xx.zip)
+    -   小米折叠屏的卸载模块(uninstall-fold-x.xx.xx.zip)
 
 -   [123 网盘下载](https://www.123pan.com/s/L70Xjv-vAkod.html) 提取码:Bzid
 
