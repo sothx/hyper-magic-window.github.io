@@ -8,7 +8,7 @@ outline: deep
 
 ### 小米平板通用版
 
-适配红米平板,小米平板以及各种基于MIUI14 For Pad / Hyper OS for Pad移植包的机型，均可刷此模块，正常情况下不会遇到任何问题，仅在我自己的小米平板6 Pro上测试通过，其他机型不保证不会出现卡米、变砖的可能性，建议自己有充足的玩机、救砖知识再去使用本模块。
+适配红米平板,小米平板以及各种基于Hyper OS for Pad第三方移植包的机型，均可刷此模块，正常情况下不会遇到任何问题，仅在我自己的小米平板6 Pro上测试通过，其他机型不保证不会出现卡米、变砖的可能性，建议自己有充足的玩机、救砖知识再去使用本模块。
 
 **推荐机型系统列表(2024-03-16更新)**
 
@@ -18,6 +18,7 @@ outline: deep
 - Redmi Pad SE [Hyper OS For Pad  1.0.2.0 +]
 - Redmi Pad [Hyper OS For Pad  1.0.3.0 +]
 - Xiaomi Pad 6 Max 14 [所有版本]
+- 基于 Hyper OS For Pad 的所有第三方移植包(Android 14 +)
 
 
 ### 小米平板6S Pro专版(适配3:2比例平板)
@@ -38,10 +39,13 @@ outline: deep
 
 ### 小米平板安卓13专版(无左右滑动条)
 
-适配小米平板安卓13(除小米平板6 Max 14)下不支持左右滑动条的平行视界，推荐Android 13安装此版本，该版本针对Android 13下平行视界部分应用显示不全的问题有做单独适配优化。
+适配Android 13/Android 12(除小米平板6 Max 14 外)不支持平行视界左右滑动条的MIUI For Pad/Hyper OS For Pad，以及各类基于MIUI For Pad的移植包机型，推荐基于Android 13/Android 12底层的均安装此版本，该版本针对Android 13/Android 12下平行视界部分应用显示不全的问题有做单独适配优化。
 
 **推荐机型系统列表(2024-03-16更新)**
-- 除Xiaomi Pad 6 Max 14 以外的所有Android 13、Android 12的MIUI For Pad,以及Xiaomi Pad 5系列(除 Xiaomi Pad 5 Pro 12.4 外)基于Android 13 底层的Hyper OS For Pad
+- Xiaomi Pad 5 [所有官方ROM版本，包括MIUI和Hyper OS]
+- Xiaomi Pad 5 Pro [所有官方ROM版本，包括MIUI和Hyper OS]
+- Xiaomi Pad 5 Pro 5G [所有官方ROM版本，包括MIUI和Hyper OS]
+- 所有基于Android 13、Android 12的MIUI For Pad 第三方移植包 （除Xiaomi Pad 6 Max 14 移植包外）
 
 ### 小米平板安卓11专版
 
