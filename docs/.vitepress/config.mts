@@ -9,7 +9,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: '首页', link: '/' },
-      { text: '下载', link: '/module-download' }
+      { text: '下载', link: '/module-download' },
+      { text: '自定义配置', link: '/custom-config'}
     ],
 
     sidebar: [
