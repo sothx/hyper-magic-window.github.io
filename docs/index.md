@@ -13,7 +13,7 @@ hero:
     - theme: alt
       text: Github
       link: https://github.com/sothx/mipad-magic-window
-    - theme: alt
+    # - theme: alt
       # text: 自定义规则
       # link: /custom-config
 
