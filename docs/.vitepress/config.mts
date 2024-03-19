@@ -10,7 +10,7 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '下载', link: '/module-download' },
-      { text: '自定义配置', link: '/custom-config'}
+      { text: '自定义规则', link: '/custom-config'}
     ],
 
     sidebar: [
