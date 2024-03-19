@@ -14,14 +14,14 @@ hero:
       text: Github
       link: https://github.com/sothx/mipad-magic-window
     - theme: alt
-      text: 自定义规则(暂时下线)
-      link: /custom-config
+      # text: 自定义规则
+      # link: /custom-config
 
 features:
   - title: 平板不再停留于只看电影只打游戏
     details: 模块集成了近 7000+ 应用适配规则
-  - title: 支持自定义规则
-    details: 部分软件的适配可随着自己的喜好做调整，不会被覆盖
+  - title: 600+ 应用深度适配
+    details: 超 600+ 常用应用精适配
   - title: 告别扭脖子
     details: 不再为应用横竖屏乱窜烦恼
 ---
