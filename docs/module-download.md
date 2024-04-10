@@ -87,7 +87,7 @@ outline: deep
 
 -   [移动云盘下载](https://caiyun.139.com/m/i?135Ce1mQo5kKV) 提取码:1s0Y
 
-> Github Release 和 123 网盘均包含最新版本和历史版本的模块安装包
+> Github Release 和 移动云盘均包含最新版本和历史版本的模块安装包
 
 ## 提交适配缺陷或者适配需求
 
