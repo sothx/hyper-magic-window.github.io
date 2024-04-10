@@ -10,11 +10,12 @@ outline: deep
 
 适配红米平板,小米平板以及各种基于Hyper OS for Pad第三方移植包的机型，均可刷此模块，正常情况下不会遇到任何问题，仅在我自己的小米平板6 Pro上测试通过，其他机型不保证不会出现卡米、变砖的可能性，建议自己有充足的玩机、救砖知识再去使用本模块。
 
-**推荐机型系统列表(2024-03-16更新)**
+**推荐机型系统列表(2024-04-11更新)**
 
 - Xiaomi Pad 6 [Hyper OS For Pad 1.0.2.0 +]
 - Xiaomi Pad 6 Pro [Hyper OS For Pad 1.0.2.0 +]
 - Xiaomi Pad 5 Pro 12.4 [Hyper OS For Pad 1.0.1.0 +]
+- Redmi Pad Pro [Hyper OS For Pad  1.0.3.0 +]
 - Redmi Pad SE [Hyper OS For Pad  1.0.2.0 +]
 - Redmi Pad [Hyper OS For Pad  1.0.3.0 +]
 - Xiaomi Pad 6 Max 14 [所有版本]

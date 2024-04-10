@@ -13,7 +13,6 @@ hero:
     - theme: alt
       text: Github
       link: https://github.com/sothx/mipad-magic-window
-
 features:
   - title: 平板不再停留于只看电影只打游戏
     details: 模块集成了近 7000+ 应用适配规则
