@@ -85,7 +85,7 @@ outline: deep
     -   小米平板安卓11的卸载模块(uninstall-pad-magicWindow-x.xx.xx.zip)
     -   小米折叠屏的卸载模块(uninstall-fold-x.xx.xx.zip)
 
--   [123 网盘下载](https://www.123pan.com/s/L70Xjv-vAkod.html) 提取码:Bzid
+-   [移动云盘下载](https://caiyun.139.com/m/i?135Ce1mQo5kKV) 提取码:1s0Y
 
 > Github Release 和 123 网盘均包含最新版本和历史版本的模块安装包
 
