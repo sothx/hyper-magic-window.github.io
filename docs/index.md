@@ -3,13 +3,16 @@
 layout: home
 
 hero:
-  name: "完美横屏应用计划(修改版)"
+  name: "完美横屏应用计划"
   text: "7000+ 应用适配"
   tagline: 适用于 Hyper OS For Pad/Fold 的Magisk模块
   actions:
     - theme: brand
       text: 下载
       link: /module-download
+    - theme: alt
+      text: 自定义规则(Beta)
+      link: /custom-config
     - theme: alt
       text: Github
       link: https://github.com/sothx/mipad-magic-window
