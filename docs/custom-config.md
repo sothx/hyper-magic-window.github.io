@@ -50,7 +50,7 @@ outline: deep
 ```xml
 // /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
   <!--取消微信的左右滑动调节-->
-  <package name="com.tencent.mm" disable="true" isShowDivider="true" />
+  <package name="com.tencent.mm" disable="true" isShowDivider="false" />
 ```
 
 - Android 11
