@@ -57,14 +57,6 @@ outline: deep
 
 ```xml
 // /data/adb/MIUI_MagicWindow+/config/magicWindowFeature_magic_window_application_list.xml
-  <!--QQ音乐强制横屏-->
-  <package name="com.tencent.qqmusic" fullRule="*" />
-  <!--推特强制横屏-->
-  <package name="com.twitter.android" fullRule="*" />
-```
-
-```xml
-// /data/adb/MIUI_MagicWindow+/config/magicWindowFeature_magic_window_application_list.xml
   <!--QQ音乐适配改为平行视界-->
   <package window_mode="2" support_multi_resume="false" support_fullscreen_video="true" support_camera_preview="true" is_scaled="false" need_relaunch="false" default_setting="" is_dragable="true" is_left_window_one_third="" notch_adapt="false" version="" home="" name="com.tencent.qqmusic" />
   <!--推特强制横屏-->
