@@ -79,6 +79,16 @@ outline: deep
 
 [【原创教程】MIUI平行视界全探索 - 御坂初琴软件屋 (ybcq.github.io)](https://ybcq.github.io/2023/02/12/【原创教程】MIUI平行视界全探索/)
 
+有关小米信箱模式的规则配置，可以参考我的博客：
 
-有关小米信箱模式的规则配置，可以参考我在酷安发的，搜关键词"小米平板内置信箱模式详解"，一般都能搜到。
+[小米平板内置信箱模式简析](https://sothx.com/2024/04/18/xiaomiPadFixedOrientationList/)
+
+## 捐赠
+
+如果感觉完美横屏应用计划对你有帮助，可以随缘捐赠，捐赠并不会提供任何额外的好处，但是能鼓励我对项目的持续维护。
+
+![微信支付](https://sothx.com/images/github/wechatQR.jpg)
+
+
+
 

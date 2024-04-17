@@ -102,15 +102,8 @@ outline: deep
 
 请通过 [GitHub Release](https://github.com/sothx/mipad-magic-window/releases/)查看模块最新的更新日志
 
-## 其他说明
+## 捐赠
 
-该Magisk模块Fork自酷安御板初琴大佬的完美横屏应用计划，根据我的个人使用习惯及应用体验修改并扩充了部分应用的平行窗口适配规则，不保证与原版体验一致，如有需要可以从下方获取御板初琴大佬编写的正式版规则。
+如果感觉完美横屏应用计划对你有帮助，可以随缘捐赠，捐赠并不会提供任何额外的好处，但是能鼓励我对项目的持续维护。
 
-<a href="https://ybcq.github.io/2023/05/01/%E3%80%90%E5%8E%9F%E5%88%9B%E8%BD%AF%E4%BB%B6%E3%80%91%E5%AE%8C%E7%BE%8E%E6%A8%AA%E5%B1%8F%E5%BA%94%E7%94%A8%E8%AE%A1%E5%88%92-%E6%AD%A3%E5%BC%8F%E7%89%88%20V1.00.0/" target="_blank">【原创软件】完美横屏应用计划-正式版 V1.00.0 —— 御坂初琴软件屋</a>
-
-
-## 问题合集
-
-遇到问题可参考御板初琴软件屋针对完美横屏应用计划的问题合集指南，模块问题建议优先反馈给模块作者。
-
-<a href="https://ybcq.github.io/2023/03/20/%E3%80%90%E9%97%AE%E9%A2%98%E5%90%88%E9%9B%86%E3%80%91%E5%AE%8C%E7%BE%8E%E6%A8%AA%E5%B1%8F%E5%BA%94%E7%94%A8%E8%AE%A1%E5%88%92/" target="_blank">【问题合集】完美横屏应用计划 —— 御坂初琴软件屋</a>
+![微信支付](https://sothx.com/images/github/wechatQR.jpg)
