@@ -6,7 +6,7 @@ outline: deep
 
 ## 使用方式
 
-模块 1.13.05+ 版本起，模块支持自定义规则覆盖模块原有的部分配置。
+模块 1.13.05+ 版本起，在不影响模块正常升级的情况下，模块支持自定义规则覆盖模块原有的部分配置。
 
 (Tips: 自定义规则功能当前为测试版本，可能测试过程中会做出大幅度调整甚至废除该功能，不保证该功能会必定上线)
 
@@ -50,18 +50,10 @@ outline: deep
 ```xml
 // /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
   <!--取消微信的左右滑动调节-->
-  <package name="com.tencent.mm" disable="true" isShowDivider="true" />
+  <package name="com.tencent.mm" disable="true" isShowDivider="false" />
 ```
 
 - Android 11
-
-```xml
-// /data/adb/MIUI_MagicWindow+/config/magicWindowFeature_magic_window_application_list.xml
-  <!--QQ音乐强制横屏-->
-  <package name="com.tencent.qqmusic" fullRule="*" />
-  <!--推特强制横屏-->
-  <package name="com.twitter.android" fullRule="*" />
-```
 
 ```xml
 // /data/adb/MIUI_MagicWindow+/config/magicWindowFeature_magic_window_application_list.xml
@@ -79,6 +71,7 @@ outline: deep
   <setting name="com.tencent.mobileqq" miuiMagicWinEnabled="true" miuiDialogShown="false" miuiDragMode="0"/>
 ```
 
+以上所有修改均需要手动重启平板后生效～
 
 ## 相关教程
 
