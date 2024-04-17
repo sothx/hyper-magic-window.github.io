@@ -71,6 +71,7 @@ outline: deep
   <setting name="com.tencent.mobileqq" miuiMagicWinEnabled="true" miuiDialogShown="false" miuiDragMode="0"/>
 ```
 
+以上所有修改均重启平板后生效～
 
 ## 相关教程
 
