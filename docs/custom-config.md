@@ -46,6 +46,8 @@ outline: deep
   <package name="com.tencent.qqmusic" fullRule="*" />
   <!--推特强制横屏-->
   <package name="com.twitter.android" fullRule="*" />
+  <!--让哔哩哔哩HD在竖屏时候也能使用-->
+  <package name="tv.danmaku.bilibilihd" fullRule="*" />
 ```
 
 ```xml
