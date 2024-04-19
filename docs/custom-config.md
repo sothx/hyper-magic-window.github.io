@@ -47,7 +47,7 @@ outline: deep
   <!--推特强制横屏-->
   <package name="com.twitter.android" fullRule="*" />
   <!--让哔哩哔哩HD在竖屏时候也能使用-->
-  <package name="tv.danmaku.bilibilihd" fullRule="*" />
+  <package name="tv.danmaku.bilibilihd" fullRule="nra:cr:rcr" />
 ```
 
 ```xml
@@ -85,6 +85,10 @@ outline: deep
 有关小米信箱模式的规则配置，可以参考我的博客：
 
 [小米平板内置信箱模式简析](https://sothx.com/2024/04/18/xiaomiPadFixedOrientationList/)
+
+有关如何让京东恢复平行视界的教程，可以参考酷安动态（需要搭配老版本京东客户端）：
+
+[支持京东平行视界的最后一版京东客户端(酷安)](https://www.coolapk.com/feed/55257509?shareKey=YzE1MmRlOWEwODcxNjYyMjQ4ZWI~&shareUid=2451811&shareFrom=com.coolapk.market_14.1.0)
 
 ## 捐赠
 
