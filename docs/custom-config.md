@@ -97,7 +97,6 @@ outline: deep
 
 并配置以下自定义规则：
 
-
 ```xml
 // /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
   <!--京东平行视界规则(仅限12.4.2及更早版本的京东客户端)-->
