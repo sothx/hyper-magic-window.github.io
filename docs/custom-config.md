@@ -86,9 +86,30 @@ outline: deep
 
 [小米平板内置信箱模式简析](https://sothx.com/2024/04/18/xiaomiPadFixedOrientationList/)
 
-有关如何让京东恢复平行视界的教程，可以参考酷安动态（需要搭配老版本京东客户端）：
+## 其他说明
 
-[支持京东平行视界的最后一版京东客户端(酷安)](https://www.coolapk.com/feed/55257509?shareKey=YzE1MmRlOWEwODcxNjYyMjQ4ZWI~&shareUid=2451811&shareFrom=com.coolapk.market_14.1.0)
+有关如何让京东恢复平行视界的教程（需要搭配老版本京东客户端）：
+
+以下最后一版支持平行视界的京东客户端(版本号:12.4.2)
+
+链接: https://caiyun.139.com/m/i?135CmsmFKa3Tq  
+提取码:HFqV
+
+并配置以下自定义规则：
+
+
+```xml
+// /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
+  <!--京东平行视界规则(仅限12.4.2及更早版本的京东客户端)-->
+  <package name="com.jingdong.app.mall" isShowDivider="true" supportFullSize="true" splitRatio="0.3" placeholder="com.jingdong.app.mall.MainFrameActivity:com.jd.lib.search.view.Activity.SearchActivity" splitPairRule="com.jingdong.app.mall.MainFrameActivity:*,com.jd.lib.search.view.Activity.SearchActivity:*,com.jd.lib.search.view.Activity.ProductListActivity:*,com.jd.lib.jshop.jshop.JshopMainShopActivity:*" flags="reusePreContainer:com.jd.lib.comment.view.activity.CommentsActivity" transitionRules="com.jingdong.app.mall.main.MainActivity" activityRule="com.jd.lib.mylive.view.activity.VideoLiveRoomActivity,com.jingdong.manto.ui.MantoActivitySingleProcess" defaultSettings="true" />
+```
+
+```xml
+// /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
+  <!--恢复京东的信箱模式(仅限12.4.2及更早版本的京东客户端)-->
+  <package name="com.jingdong.app.mall"  supportFullSize="true" />
+```
+
 
 ## 捐赠
 
