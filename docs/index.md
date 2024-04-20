@@ -14,6 +14,9 @@ hero:
       text: 自定义规则(Beta)
       link: /custom-config
     - theme: alt
+      text: 问题合集
+      link: /FAQ
+    - theme: alt
       text: Github
       link: https://github.com/sothx/mipad-magic-window
 features:
