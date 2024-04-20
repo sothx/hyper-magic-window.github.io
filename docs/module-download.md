@@ -105,8 +105,8 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
 
 请通过 [GitHub Release](https://github.com/sothx/mipad-magic-window/releases/)查看模块最新的更新日志
 
-## 捐赠
+## 打赏
 
-如果感觉完美横屏应用计划对你有帮助，随缘求个捐赠。
+如果感觉完美横屏应用计划对你有帮助，求个随缘打赏。
 
 ![微信支付](https://sothx.com/images/github/wechatQR.jpg)

@@ -120,9 +120,9 @@ outline: deep
 ```
 
 
-## 捐赠
+## 打赏
 
-如果感觉完美横屏应用计划对你有帮助，随缘求个捐赠。
+如果感觉完美横屏应用计划对你有帮助，求个随缘打赏。
 
 ![微信支付](https://sothx.com/images/github/wechatQR.jpg)
 

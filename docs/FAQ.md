@@ -171,11 +171,11 @@ Moto [DolbyAtmos] A14 v1.0a
 
 这个问题目前未知，暂时只发现出现在 Xiaomi Pad 6S Pro，因此如果出现X打开会崩溃的问题，推荐使用 Xiaomi Pad 6S Pro 专版模块，该专版模块下，针对X的适配改为强制横屏。
 
-### 9.
 
-## 捐赠
 
-如果感觉完美横屏应用计划对你有帮助，随缘求个捐赠。
+## 打赏
+
+如果感觉完美横屏应用计划对你有帮助，求个随缘打赏。
 
 ![微信支付](https://sothx.com/images/github/wechatQR.jpg)
 
