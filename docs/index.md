@@ -14,7 +14,7 @@ hero:
       text: 自定义规则(Beta)
       link: /custom-config
     - theme: alt
-      text: 问题合集
+      text: 问题合集(FAQ)
       link: /FAQ
     - theme: alt
       text: Github

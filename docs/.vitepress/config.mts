@@ -11,7 +11,7 @@ export default defineConfig({
       { text: '首页', link: '/' },
       { text: '下载', link: '/module-download' },
       { text: '自定义规则(Beta)', link: '/custom-config' }, 
-      { text: '问题合集', link: '/FAQ'},
+      { text: '问题合集(FAQ)', link: '/FAQ'},
     ],
 
     sidebar: [
