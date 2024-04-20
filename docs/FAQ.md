@@ -129,5 +129,11 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
 -  小米平板安卓11的卸载模块(uninstall-pad-magicWindow-x.xx.xx.zip)
 -  小米折叠屏的卸载模块(uninstall-fold-x.xx.xx.zip)
 
+## 捐赠
+
+如果感觉完美横屏应用计划对你有帮助，随缘求个捐赠。
+
+![微信支付](https://sothx.com/images/github/wechatQR.jpg)
+
 
 
