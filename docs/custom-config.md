@@ -39,16 +39,18 @@ outline: deep
 
 以下是文件的指定模板：
 
+Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米有单独一套自己的强制横屏策略，因此不生效。
+
 - Android 12+
 
 ```xml
 // /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
   <!--QQ音乐强制横屏-->
-  <package name="com.tencent.qqmusic" fullRule="*" />
+  <package name="com.tencent.qqmusic" fullRule="nra:cr:rcr:nr" />
   <!--推特强制横屏-->
-  <package name="com.twitter.android" fullRule="*" />
+  <package name="com.twitter.android" fullRule="nra:cr:rcr:nr" />
   <!--让哔哩哔哩HD在竖屏时候也能使用-->
-  <package name="tv.danmaku.bilibilihd" fullRule="nra:cr:rcr" />
+  <package name="tv.danmaku.bilibilihd" fullRule="nra:cr:rcr:nr" />
 ```
 
 ```xml
