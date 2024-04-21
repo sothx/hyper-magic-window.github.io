@@ -99,7 +99,7 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
 
 ## 提交适配缺陷或者适配需求
 
-可通过 [GitHub Issues](https://github.com/sothx/hyper-magic-window.github.io/issues)提交遇到的应用缺陷和应用适配需求
+可通过 [GitHub Issues](https://github.com/sothx/mipad-magic-window/issues)提交遇到的应用缺陷和应用适配需求
 
 ## 更新日志
 

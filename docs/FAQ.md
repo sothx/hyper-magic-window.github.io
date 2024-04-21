@@ -107,7 +107,7 @@ Android 11 的模块在安装后，所有应用的横屏模式强制开启，无
 
 ### 14.我该如何提交适配缺陷或者适配需求？
 
-可通过 [GitHub Issues](https://github.com/sothx/hyper-magic-window.github.io/issues)提交遇到的应用缺陷和应用适配需求，反馈应用缺陷前请确保模块已经升级至最新版，但是问题仍然没有解决。
+可通过 [GitHub Issues](https://github.com/sothx/mipad-magic-window/issues)提交遇到的应用缺陷和应用适配需求，反馈应用缺陷前请确保模块已经升级至最新版，但是问题仍然没有解决。
 
 ### 15.为什么模块有时会失效？
 
