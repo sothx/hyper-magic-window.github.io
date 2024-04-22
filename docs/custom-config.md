@@ -100,7 +100,28 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 
 ## 其他说明
 
-有关如何让京东恢复平行视界的教程（需要搭配老版本京东客户端）：
+1. 为什么有些应用强制横屏没有用？
+
+如果一些应用自身已经做了平板适配，此时可能会导致强制横屏的逻辑不生效，可以通过禁用该应用的信箱模式，再添加强制横屏的规则，实现强制横屏。
+
+```xml
+// /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
+  <!--酷狗音乐强制横屏-->
+  <package name="com.kugou.android" fullRule="nra:cr:rcr:nr" />
+```
+
+```xml
+// /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
+  <!-- 禁用酷狗音乐的信箱模式 -->
+  <package name="com.kugou.android" disable="true" />
+```
+
+具体原因可以阅读有关小米信箱模式的简析：
+
+[小米平板内置信箱模式简析](https://sothx.com/2024/04/18/xiaomiPadFixedOrientationList/)
+
+
+2. 有关如何让京东恢复平行视界的教程（需要搭配老版本京东客户端）：
 
 以下最后一版支持平行视界的京东客户端(版本号:12.4.2)
 
