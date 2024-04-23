@@ -22,7 +22,7 @@ outline: deep
 - 基于 Hyper OS For Pad 的所有第三方移植包(Android 14 +)
 
 
-### 小米平板安卓13专版(无左右滑动条)
+### 小米平板安卓13通用版(无左右滑动条)
 
 适配Android 13下不支持平行视界左右滑动条的MIUI For Pad/Hyper OS For Pad，以及各类基于Android 13 MIUI For Pad的移植包机型，推荐基于Android 13底层安装此版本，该版本针对Android 13下平行视界部分应用显示不全的问题有做单独适配优化。
 
@@ -40,7 +40,7 @@ outline: deep
 **推荐机型系统列表(2024-03-16更新)**
 - Xiaomi Pad 6S Pro (Android 14 +)
 
-### 小米折叠屏专版(仅小米 Mix Fold 系列)
+### 小米折叠屏通用版(仅小米 Mix Fold 系列)
 
 适配小米Mix Fold 折叠屏系列，仅推荐折叠屏的机型。
 
@@ -49,7 +49,7 @@ outline: deep
 - Xiaomi Mix Fold 2 (Android 13 +)
 - Xiaomi Mix Fold 3 (Android 13 +)
 
-### 小米平板安卓11专版
+### 小米平板安卓11通用版
 
 适配小米平板安卓11下类华为/荣耀体系的横屏模式，仅适配安卓11，安卓11的模块不支持通过系统设置直接关闭某个应用的横屏模式适配(重启或者升级模块均会恢复打开状态)，可通过模块提供的[自定义规则(Beta)](https://hyper-magic-window.sothx.com/custom-config.html)来调整某个应用的横屏模式适配，如果有体验不佳的应用也可以反馈给我，在后续版本中永久移除该应用的平行视界适配。
 
@@ -59,14 +59,25 @@ outline: deep
 - Xiaomi Pad 5 Pro 5G (Android 11)
 - 所有基于安卓11底层MIUI For Pad第三方移植包
 
+### 小米平板5系列安卓13澎湃专版
+
+适配小米平板5/小米平板5 Pro/小米平板5 Pro 5G 小米官方基于Android 13的 Hyper OS，该模块会解锁平行窗口的左右滑动调节，该版本存在一定的卡米风险，需要自行救砖，该版本误装会100%卡米！！！
+
+该模块不同于通用版模块，推荐系统更新前先卸载本模块，避免卡米，系统更新后再尝试安装本模块。
+
+**推荐机型系统列表**
+- Xiaomi Pad 5 (Hyper OS Based On Android 13)
+- Xiaomi Pad 5 Pro (Hyper OS Based On Android 13)
+- Xiaomi Pad 5 Pro 5G (Hyper OS Based On Android 13)
+
 ### MIUI 14下的6 Max移植包专版
 
-适配以前小米平板6 Max发布后到Hyper OS For Pad更新前这段时间推出的基于小米平板6 Max的MIUI 14 For Pad移植包(Hyper OS For Pad和非移植包勿刷，刷错会卡米)，如果不知道这个版本是干嘛的，就直接忽略这个版本，该版本误刷会100%卡米！！！！！！
+适配以前小米平板6 Max发布后到Hyper OS For Pad更新前这段时间推出的基于小米平板6 Max的MIUI 14 For Pad移植包(Hyper OS For Pad和非移植包勿刷，刷错会卡米)，该版本存在一定的卡米风险，需要自行救砖，该版本误刷会100%卡米！！！！！！
 
 移植包升级到Hyper OS For Pad 之前，务必先卸载本模块，不然导致100%会导致卡米。
 
 **推荐机型系统列表**
-- 基于小米平板6 Max MIUI 14 For Pad的移植包（虽然加了很多次提示了，但还是有人不看就装，请仔细阅读并了解，，其他情况不推荐再装这个模块，否则100%导致卡米，需要自行救砖。）
+- 基于小米平板6 Max MIUI 14 For Pad的移植包（虽然加了很多次提示了，但还是有人不看就装，请仔细阅读并了解，装错100%导致卡米，需要自行救砖。）
 
 
 
