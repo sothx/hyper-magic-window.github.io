@@ -98,6 +98,8 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
 
 ## 下载
 
+-   [移动云盘下载](https://caiyun.139.com/m/i?135Ce1mQo5kKV) 提取码:1s0Y
+
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
     -   小米平板通用版(pad-x.xx.xx.zip)
     -   小米平板6S Pro专版(pad-ratioOf3To2-x.xx.xx.zip)
@@ -107,8 +109,6 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
     -   小米平板5系列安卓13澎湃专版(pad-hyperos-based-on-tiramisu-x.xx.xx.zip)
     -   MIUI 14下的6 Max移植包专版(transplant-x.xx.xx.zip)
     -   自用版，个人测试用途，请勿下载，很不稳定(pad-ext-x.xx.xx.zip)
-
--   [移动云盘下载](https://caiyun.139.com/m/i?135Ce1mQo5kKV) 提取码:1s0Y
 
 > Github Release 和 移动云盘均包含最新版本和历史版本的模块安装包
 
