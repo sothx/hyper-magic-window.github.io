@@ -18,7 +18,7 @@ outline: deep
 - Redmi Pad Pro (Android 14 +)
 - Redmi Pad SE (Android 14 +)
 - Redmi Pad (Android 14 +)
-- Xiaomi Pad 6 Max 14 (Android 13 +)
+- Xiaomi Pad 6 Max 14 (Android 14 +)
 - 基于 Hyper OS For Pad 的所有第三方移植包(Android 14 +)
 
 
@@ -30,6 +30,7 @@ outline: deep
 - Xiaomi Pad 5 (Android 13)
 - Xiaomi Pad 5 Pro (Android 13)
 - Xiaomi Pad 5 Pro 5G (Android 13)
+- Xiaomi Pad 6 Max 14 (Android 13)
 - 所有基于Android 13的MIUI For Pad 第三方移植包
 
 
