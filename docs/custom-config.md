@@ -151,7 +151,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
   <package name="com.jingdong.app.mall"  supportFullSize="true" />
 ```
 
-3.有关如何让QQ音乐使用模块老版本带折叠屏播放器适配的教程：
+3. 有关如何让QQ音乐使用模块老版本带折叠屏播放器适配的教程：
 
 由于带折叠屏播放器的版本随着QQ音乐的更新，判断有做修改，而且也存在比较多的副作用，因此改为没什么BUG的强制横屏，如果需要使用老模块提供的QQ音乐适配，可以手动配置以下的自定义规则
 ```xml
@@ -160,7 +160,28 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
   <package name="com.tencent.qqmusic" flags="reusePreContainer:com.tencent.qqmusic.business.playernew.view.FoldScreenNewPlayerActivity,com.tencent.qqmusic.business.playernew.view.PadNewPlayerActivity,com.tencent.qqmusic.activity.AppStarterActivity;useSameTfcOnCreateInPortrait:com.tencent.qqmusic.activity.base.FragmentActivityWithMinibar,com.tencent.qqmusic.activity.AppStarterActivity;ignoreActivityBelowWhenJudgeMiddle:com.tme.mlive.framework.ui.LivePagerActivity" placeholder="com.tencent.qqmusic.activity.AppStarterActivity:com.tencent.qqmusic.business.playernew.view.FoldScreenNewPlayerActivity" splitRatio="0.4" isShowDivider="true" supportCameraPreview="true" splitPairRule="com.tencent.qqmusic.activity.AppStarterActivity:*,*:com.tencent.qqmusic.business.playernew.view.FoldScreenNewPlayerActivity" activityRule="com.tme.qqmusic.knative.kuikly.container.KuiklyRenderActivity,com.tencent.qqmusic.activity.YoungModeActivity,com.tencent.qqmusic.activity.AppStarterActivity,com.tencent.qqmusic.share.sharedialog.ShareSongDialogActivity,com.tencent.qqmusic.com.cocos.lib.nolib.MusicWorldActivity,com.tencent.qqmusic.activity.CommentInputActivity,com.tencent.qqmusic.activity.baseactivity.StartUpPrivacyPolicyActivity,com.tencent.qqmusic.activity.welcome.WelcomeActivity,com.tencent.qqmusic.activity.LoginActivity,com.tencent.qqmusic.activity.PortMVPlayerActivity,com.tencent.qqmusic.activity.ShareFeedActivity,com.tencent.qqmusic.activity.baseactivity.StartConfigActivity,com.tencent.qqmusic.activity.EditFolderDetailActivity,com.tencent.qqmusic.fragment.folderalbum.diyfolder.EditFolderTemplateActivity,com.tencent.qqmusic.activity.EditFolderCoverActivity,com.tencent.qqmusic.fragment.folderalbum.diyfolder.EditFolderDynamicBgActivity,com.tencent.qqmusic.fragment.folderalbum.diyfolder.EditFolderDynamicHeadActivity,com.tencent.picker.activity.PictureSelectorActivity,com.tencent.qqmusic.activity.VideoCommentDialogActivity,com.tencent.qqmusic.activity.WebViewActivity,com.tencent.qqmusic.fragment.mv.resolution.MvResolutionActionSheet,com.tencent.qqmusic.activity.DanmuCommentActivity,com.tencent.qqmusic.activity.SharePortVideoActivity,com.tencent.qqmusic.activity.PostMomentActivity,com.tencent.qqmusic.activity.FragmentActivityWithBottomAnim,com.tencent.qqmusic.activity.LoginSecureVerificationWebViewActivity,com.tencent.qqmusic.business.privacypolicy.litemode.PrivacyBaseModeActivity,com.tencent.qqmusic.business.playernew.view.PadNewPlayerActivity,com.tencent.qqmusic.share.sharedialog.ShareScreenShotDialogActivity" transitionRules="com.tencent.qqmusic.activity.AppStarterActivity,com.tencent.qqmusic.activity.baseactivity.StartUpPrivacyPolicyActivity,com.tencent.qqmusic.activity.welcome.WelcomeActivity,com.tencent.qqmusic.activity.LoginActivity,com.tencent.qqmusic.activity.PortMVPlayerActivity,com.tencent.qqmusic.activity.ShareFeedActivity,com.tencent.qqmusic.activity.baseactivity.StartConfigActivity,com.tencent.qqmusic.activity.baseactivity.StartConfigActivity,com.tencent.qqmusic.activity.EditFolderDetailActivity,com.tencent.qqmusic.fragment.folderalbum.diyfolder.EditFolderTemplateActivity,com.tencent.qqmusic.activity.EditFolderCoverActivity,com.tencent.qqmusic.fragment.folderalbum.diyfolder.EditFolderDynamicBgActivity,com.tencent.qqmusic.fragment.folderalbum.diyfolder.EditFolderDynamicHeadActivity,com.tencent.picker.activity.PictureSelectorActivity,com.tencent.qqmusic.activity.VideoCommentDialogActivity,com.tencent.qqmusic.activity.WebViewActivity,com.tencent.qqmusic.fragment.mv.resolution.MvResolutionActionSheet,com.tencent.qqmusic.activity.DanmuCommentActivity,com.tencent.qqmusic.activity.SharePortVideoActivity,com.tencent.qqmusic.activity.PostMomentActivity,com.tencent.qqmusic.activity.FragmentActivityWithBottomAnim,com.tencent.qqmusic.activity.LoginSecureVerificationWebViewActivity,com.tencent.qqmusic.business.privacypolicy.litemode.PrivacyBaseModeActivity,com.tme.mlive.framework.ui.LivePagerActivity,com.tencent.qqmusic.share.sharedialog.ShareScreenShotDialogActivity" />
 ```
 
-4. 酷安使用官方的适配规则而不是模块的规则:
+4. 有关如何让QQ音乐使用旧版的应用布局优化
+QQ音乐新版修改了播放器界面，导致新版无法再支持应用布局优化，如果需要使用QQ音乐的应用布局优化请搭配老版本的QQ音乐客户端。
+
+老版本QQ音乐客户端下载:
+
+链接:  https://caiyun.139.com/m/i?135Cdk87uVQyP
+
+老版本QQ音乐的适配规则:
+
+```xml
+<!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml-->
+  <!--让QQ音乐强制横屏-->
+  <package name="com.tencent.qqmusic" fullRule="nra:cr:rcr:nr" />
+```
+
+```xml
+<!-- /data/adb/MIUI_MagicWindow+/config/auto_ui_list.xml-->
+  <!--QQ音乐应用布局优化规则-->
+  <package name="com.tencent.qqmusic" enable="true" activityRule="com.tencent.qqmusic.business.playernew.view.PadNewPlayerActivity:1:ibw-17,kdo-17,kgx-16,m5z-17,kpw-17,TextView-16,ju9-16,ds6-16,ihq-16,ihy-16,ihu-16,ihx-16,o5-16,i_s-16,ihw-16,ju_-16,idi-16,me5-16,idj-16,ie3-16,ie2-16,idz-16,ie8-16,ie7-16,iea-16,ie_-16,ied-16,mki-16,ehq-16,i_w-16,ju_-16,bgd-16,bg0-16,bg9-16,igw-16,iag-16,i_t-16,ifr-16,if6-16,iee-16,ial-16,dc1-15;" optimizeWebView="true" />
+```
+
+5. 酷安使用官方的适配规则而不是模块的规则:
 
 可以通过下述配置，让酷安使用官方的适配规则，而不是模块的规则
 
@@ -170,7 +191,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
   <package name="com.coolapk.market" fullRule="nra:cr:rcr:nr" />
 ```
 
-5. 酷安强制横屏(不进入平行视界)：
+6. 酷安强制横屏(不进入平行视界)：
 
 酷安允许反向适配，所以可以通过下述方式，让酷安无论如何都不进入平行视界，而是强制横屏。
 
