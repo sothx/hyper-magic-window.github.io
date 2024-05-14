@@ -51,7 +51,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 - Android 12+
 
 ```xml
-// /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
+<!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
   <!--QQ音乐强制横屏-->
   <package name="com.tencent.qqmusic" fullRule="nra:cr:rcr:nr" />
   <!--推特强制横屏-->
@@ -61,13 +61,13 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 ```
 
 ```xml
-// /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
+<!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
   <!--取消微信的左右滑动调节-->
   <package name="com.tencent.mm" disable="true" isShowDivider="false" />
 ```
 
 ```xml
-// /data/adb/MIUI_MagicWindow+/config/autoui_list.xml
+<!-- /data/adb/MIUI_MagicWindow+/config/autoui_list.xml -->
   <!--禁用QQ邮箱的应用布局优化-->
   <package name="com.tencent.androidqqmail" enable="false" />
 ```
@@ -75,7 +75,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 - Android 11
 
 ```xml
-// /data/adb/MIUI_MagicWindow+/config/magicWindowFeature_magic_window_application_list.xml
+<!-- /data/adb/MIUI_MagicWindow+/config/magicWindowFeature_magic_window_application_list.xml -->
   <!--QQ音乐适配改为平行视界-->
   <package window_mode="2" support_multi_resume="false" support_fullscreen_video="true" support_camera_preview="true" is_scaled="false" need_relaunch="false" default_setting="" is_dragable="true" is_left_window_one_third="" notch_adapt="false" version="" home="" name="com.tencent.qqmusic" />
   <!--推特强制横屏-->
@@ -83,7 +83,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 ```
 
 ```xml
-// /data/adb/MIUI_MagicWindow+/config/magic_window_setting_config.xml
+<!-- /data/adb/MIUI_MagicWindow+/config/magic_window_setting_config.xml -->
   <!--Tips:如果是模块已经存在的应用不需要加这个文件，新增应用才需要追加-->
 
   <!--启用QQ的横屏模式-->
@@ -114,13 +114,13 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 如果一些应用自身已经做了平板适配，此时可能会导致强制横屏的逻辑不生效，可以通过禁用该应用的信箱模式，再添加强制横屏的规则，实现强制横屏。
 
 ```xml
-// /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
+<!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
   <!--酷狗音乐强制横屏-->
   <package name="com.kugou.android" fullRule="nra:cr:rcr:nr" />
 ```
 
 ```xml
-// /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
+<!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml -->
   <!-- 禁用酷狗音乐的信箱模式 -->
   <package name="com.kugou.android" disable="true" />
 ```
