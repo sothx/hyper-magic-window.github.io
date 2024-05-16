@@ -178,7 +178,7 @@ QQ音乐新版修改了播放器界面，导致新版无法再支持应用布局
 ```
 
 ```xml
-<!-- /data/adb/MIUI_MagicWindow+/config/auto_ui_list.xml-->
+<!-- /data/adb/MIUI_MagicWindow+/config/autoui_list.xml-->
   <!--QQ音乐应用布局优化规则-->
   <package name="com.tencent.qqmusic" enable="true" activityRule="com.tencent.qqmusic.business.playernew.view.PadNewPlayerActivity:1:ibw-17,kdo-17,kgx-16,m5z-17,kpw-17,TextView-16,ju9-16,ds6-16,ihq-16,ihy-16,ihu-16,ihx-16,o5-16,i_s-16,ihw-16,ju_-16,idi-16,me5-16,idj-16,ie3-16,ie2-16,idz-16,ie8-16,ie7-16,iea-16,ie_-16,ied-16,mki-16,ehq-16,i_w-16,ju_-16,bgd-16,bg0-16,bg9-16,igw-16,iag-16,i_t-16,ifr-16,if6-16,iee-16,ial-16,dc1-15;" optimizeWebView="true" />
 ```
