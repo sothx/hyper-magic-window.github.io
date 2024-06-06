@@ -108,7 +108,9 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
 
 ## 下载
 
--   [移动云盘下载](https://caiyun.139.com/m/i?135Ce1mQo5kKV) 提取码:1s0Y
+-   [移动云盘下载](https://caiyun.139.com/m/i?135Cm8seYhgLQ) 提取码:LJWj
+
+
 
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
     -   小米平板通用版(pad-x.xx.xx.zip)
