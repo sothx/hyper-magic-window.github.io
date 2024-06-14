@@ -14,6 +14,9 @@ hero:
       text: 自定义规则(Beta)
       link: /custom-config
     - theme: alt
+      text: 游戏显示布局
+      link: /game-mode
+    - theme: alt
       text: 问题合集(FAQ)
       link: /FAQ
     - theme: alt
