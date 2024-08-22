@@ -92,6 +92,50 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 
 以上所有修改均需要手动重启平板后生效～
 
+## 系统规则路径
+
+系统内置规则可以通过以下路径获取：
+
+```bash
+# Android 12+
+# 平行窗口的系统内置规则
+/product/etc/embedded_rules_list.xml
+# 信箱模式的系统内置规则
+/product/etc/fixed_orientation_list.xml
+# 应用布局优化的系统内置规则
+/product/etc/autoui_list.xml
+```
+
+```bash
+# Android 11
+# 横屏模式的系统内置应用配置
+/data/system/magicWindowFeature_magic_window_application_list.xml
+# 横屏模式的系统内置应用列表
+/data/system/users/0/magic_window_setting_config.xml
+```
+
+## 模块内置规则
+
+模块内置规则可以通过以下路径获取：
+
+```bash
+# Android 12+
+# 平行窗口的系统内置规则
+/data/adb/modules/MIUI_MagicWindow+/common/source/embedded_rules_list.xml
+# 信箱模式的系统内置规则
+/data/adb/modules/MIUI_MagicWindow+/common/source/fixed_orientation_list.xml
+# 应用布局优化的系统内置规则
+/data/adb/modules/MIUI_MagicWindow+/common/source/autoui_list.xml
+```
+
+```bash
+# Android 11
+# 横屏模式的系统内置应用配置
+/data/adb/modules/MIUI_MagicWindow+/common/source/magicWindowFeature_magic_window_application_list.xml
+# 横屏模式的系统内置应用列表
+/data/adb/modules/MIUI_MagicWindow+/common/source/magic_window_setting_config.xml
+```
+
 
 ## 相关教程
 
@@ -106,6 +150,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 有关小米应用布局优化的规则配置，可以参考我的博客：
 
 （施工中，暂无链接QwQ）
+
 
 ## 其他说明
 
