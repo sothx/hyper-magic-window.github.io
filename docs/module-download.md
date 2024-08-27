@@ -108,7 +108,7 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
 
 ## 下载
 
--   [移动云盘下载](https://caiyun.139.com/m/i?135Cm8seYhgLQ) 提取码:LJWj
+-   [移动云盘下载](https://caiyun.139.com/m/i?135CmUWDgnbAM)
 
 
 
