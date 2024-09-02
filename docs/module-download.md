@@ -77,7 +77,7 @@ outline: deep
 
 ## 下载
 
--   [移动云盘下载](https://caiyun.139.com/m/i?135CmUWDgnbAM)
+-   [移动云盘下载(首选推荐)](https://caiyun.139.com/m/i?135CmUWDgnbAM)
 
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
     -   小米平板安卓14通用版(pad-x.xx.xx.zip)
