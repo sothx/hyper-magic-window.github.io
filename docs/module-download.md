@@ -31,7 +31,7 @@ outline: deep
 
 模块安装包名称：fold-x.xx.xx.zip
 
-模块简介：适配小米Mix Fold 折叠屏系列，针对MIUI For Fold/Hyper OS For Fold
+模块简介：适配小米Mix Fold 折叠屏系列，针对MIUI For Fold/Hyper OS For Fold有独立的适配优化。
 
 ### 小米平板6S Pro澎湃专版(适配3:2比例平板)
 
