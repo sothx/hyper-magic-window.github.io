@@ -87,7 +87,7 @@ outline: deep
     -   小米平板6S Pro专版(pad-ratioOf3To2-x.xx.xx.zip)
     -   小米平板6(pipa)澎湃专版(pad-pipa-for-hyperos-x.xx.xx.zip)
     -   小米平板5系列安卓13澎湃专版(pad-hyperos-based-on-tiramisu-x.xx.xx.zip)
-    -   基于MIUI 14的6 Max移植包专版(pad-transplant-6max-based-on-tiramisu-x.xx.xx.zip)
+    -   MIUI 14的6 Max移植包专版(pad-transplant-6max-based-on-tiramisu-x.xx.xx.zip)
     -   自用测试版，个人测试用途，请勿下载，很不稳定(pad-ext-x.xx.xx.zip)
 
 > Github Release 和 移动云盘均包含最新版本和历史版本的模块安装包
