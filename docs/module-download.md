@@ -64,7 +64,7 @@ outline: deep
 
 该模块不同于通用版模块，推荐系统更新前先卸载本模块，避免卡米，系统更新后再尝试安装本模块。
 
-### 基于MIUI 14的6 Max移植包专版
+### MIUI 14的6 Max移植包专版(仅适用于第三方移植包)
 
 模块安装包名称：pad-transplant-6max-based-on-tiramisu-x.xx.xx.zip
 
