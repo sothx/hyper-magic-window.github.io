@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "完美横屏应用计划"
-  text: "7000+ 应用适配"
+  text: "8000+ 应用适配"
   tagline: 适用于 Hyper OS For Pad/Fold 的Magisk模块
   actions:
     - theme: brand
@@ -24,7 +24,7 @@ hero:
       link: https://github.com/sothx/mipad-magic-window
 features:
   - title: 平板不再停留于只看电影只打游戏
-    details: 模块集成了近 7000+ 应用适配规则
+    details: 模块集成了近 8000+ 应用适配规则
   - title: 700+ 应用深度适配
     details: 超 700+ 常用应用精适配
   - title: 告别扭脖子
