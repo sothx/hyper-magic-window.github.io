@@ -32,7 +32,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配简述:
 
-1.首页体验全屏化
+1.首页体验全屏化(京东首次安装启动界面是异常的，需要第二次启动才是正常平板适配)
 
 2.适配小米平板平行窗口滑动条
 
