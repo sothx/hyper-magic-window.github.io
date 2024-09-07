@@ -244,6 +244,22 @@ Android 11+ | MIUI For Pad | Hyper OS For Pad
 
 1. 适配渐进式Web应用(PWA)在平板横屏使用
 
+## 汽车类
+
+### 小米汽车(com.mi.car.mobile)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1.适配首页全屏化，提高大屏设备沉浸体验
+
+2.适配商城页平行窗口
+
+
+
 
 ## 打赏
 
