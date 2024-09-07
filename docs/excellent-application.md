@@ -217,3 +217,4 @@ Android 11+ | MIUI For Pad | Hyper OS For Pad
 适配简述:
 
 1. 适配渐进式Web应用(PWA)在平板横屏使用
+
