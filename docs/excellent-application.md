@@ -377,7 +377,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
-1. 适配传送门支持横屏使用
+1. 适配小米传送门支持横屏使用
 
 请搭配<小米平板系统应用补全模块>食用
 
@@ -392,7 +392,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
-1. 适配小爱同学部分场景会被强制扭转为竖屏的问题
+1. 适配小米小爱同学部分场景会被强制扭转为竖屏的问题
 
 ### 手机管家/平板管家(com.miui.securitycenter)
 
@@ -432,7 +432,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
-1. 适配收音机无法横屏全屏的问题
+1. 适配小米收音机无法横屏全屏的问题
 
 ### 悬浮球(com.miui.touchassistant)
 
