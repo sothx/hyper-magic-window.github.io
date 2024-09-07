@@ -218,3 +218,9 @@ Android 11+ | MIUI For Pad | Hyper OS For Pad
 
 1. 适配渐进式Web应用(PWA)在平板横屏使用
 
+
+## 打赏
+
+如果感觉完美横屏应用计划对你有帮助，求个随缘打赏。
+
+![微信支付](https://sothx.com/images/github/wechatQR.jpg)
