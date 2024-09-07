@@ -30,7 +30,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配简述:
 
-1.适配开屏页全屏化，提高平板沉浸体验
+1.适配开屏页全屏化，提高大屏设备沉浸体验
 
 2.适配类IM平行窗口，首页默认分屏，与类似QQ/微信同等的类IM适配体验
 
@@ -46,7 +46,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 1.首页体验全屏化(京东首次安装启动界面是异常的，需要第二次启动才是正常平板适配)
 
-2.适配小米平板平行窗口滑动条
+2.适配小米平行窗口滑动条
 
 ## 视频类
 
@@ -58,7 +58,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
-1.适配开屏页全屏化，提高平板沉浸体验
+1.适配开屏页全屏化，提高大屏设备沉浸体验
 
 2.适配首页默认分屏，并且自动递进高频页面的平行窗口，提高平行窗口的使用体验
 
@@ -87,6 +87,20 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 1.缩放界面元素，使其兼容大屏设备
 
 2.适配应用强制横屏
+
+### QQ音乐(com.tencent.qqmusic)
+
+适配兼容性: 
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1.适配开屏页、首页默认分屏，提高大屏设备沉浸体验
+
+2.适配MV播放界面全屏化，提高MV播放使用体验
+
+3.适配小米平行窗口滑动条，且可拖拽至全屏
 
 
 ## 游戏类
@@ -146,7 +160,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配简述:
 
-1.适配首页全屏化，提高平板沉浸体验
+1.适配首页全屏化，提高大屏设备沉浸体验
 
 2.适配高频页面递进的平行窗口
 
@@ -164,7 +178,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
-1.适配首页全屏化，提高平板沉浸体验
+1.适配首页全屏化，提高大屏设备沉浸体验
 
 2.适配高频页面递进的平行窗口
 
@@ -178,7 +192,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配简述:
 
-1.适配首页全屏化，提高平板沉浸体验(开屏页无法全屏化)
+1.适配首页全屏化，提高大屏设备沉浸体验(开屏页无法全屏化)
 
 2.适配高频页面递进的平行窗口
 
@@ -190,7 +204,7 @@ Android 14+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配简述:
 
-1.适配首页全屏化，提高平板沉浸体验
+1.适配首页全屏化，提高大屏设备沉浸体验
 
 2.适配高频页面递进的平行窗口
 
