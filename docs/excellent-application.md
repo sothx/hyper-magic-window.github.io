@@ -373,7 +373,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配兼容性:
 
-Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
@@ -388,7 +388,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配兼容性:
 
-Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
@@ -398,7 +398,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配兼容性:
 
-Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
@@ -408,7 +408,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配兼容性:
 
-Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
@@ -418,11 +418,70 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 适配兼容性:
 
-Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
 1. 适配百度输入法小米版管理面板不能正常横屏显示的问题
+
+### 收音机(com.miui.fm)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
+适配简述:
+
+1. 适配收音机无法横屏全屏的问题
+
+### 悬浮球(com.miui.touchassistant)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
+适配简述:
+
+1. 适配小米悬浮球无法横屏全屏的问题
+
+### 小米白噪音(com.miui.whitenoise)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
+适配简述:
+
+1. 适配小米白噪音无法横屏全屏的问题
+
+### 小米快应用(com.miui.hybrid)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
+适配简述:
+
+1. 适配小米快应用无法横屏全屏的问题
+
+### 小米指南针(com.miui.compass)
+
+适配简述:
+
+1. 适配小米指南针无法横屏全屏的问题
+
+### 小米音质音效(com.miui.misound)
+
+适配简述:
+
+1. 为手机版小米音质音效(修改版)适配横屏全屏
+
+### 小米穿戴(com.xiaomi.wearable)
+
+适配简述:
+
+1. 适配小米穿戴无法横屏全屏的问题
+
 
 ## 打赏
 
