@@ -230,7 +230,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 3. 适配小米平行窗口滑动条，且可拖拽至全屏
 
-### 百度网盘(com.chinamobile.mcloud)
+### 中国移动网盘(com.chinamobile.mcloud)
 
 适配兼容性:
 
