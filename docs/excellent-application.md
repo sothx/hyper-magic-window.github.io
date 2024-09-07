@@ -466,17 +466,29 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 ### 小米指南针(com.miui.compass)
 
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
 适配简述:
 
 1. 适配小米指南针无法横屏全屏的问题
 
 ### 小米音质音效(com.miui.misound)
 
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
 适配简述:
 
 1. 为手机版小米音质音效(修改版)适配横屏全屏
 
 ### 小米穿戴(com.xiaomi.wearable)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 适配简述:
 
