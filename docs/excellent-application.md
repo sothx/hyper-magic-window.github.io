@@ -22,6 +22,18 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 2.纠正了QQ视频通话摄像头转向错误的问题
 
+### DoDo(com.dodolive.app)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1.适配开屏页全屏化，提高平板沉浸体验
+
+2.适配类IM平行窗口，首页默认分屏，与类似QQ/微信同等的类IM适配体验
+
 ## 购物类
 
 ### 京东(com.jingdong.app.mall)
@@ -157,18 +169,6 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 2.适配高频页面递进的平行窗口
 
 3.适配小黑盒小程序应用全屏化
-
-### DoDo(com.dodolive.app)
-
-适配兼容性:
-
-Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
-
-适配简述:
-
-1.适配开屏页全屏化，提高平板沉浸体验
-
-2.适配类IM平行窗口，首页默认分屏，与类似QQ/微信同等的类IM适配体验
 
 ### 微博轻享版(com.weico.international)
 
