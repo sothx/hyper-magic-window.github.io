@@ -36,6 +36,16 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 3. 适配小米平行窗口滑动条，且可拖拽至全屏
 
+### Jagat果汁儿(cn.jagat.main)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配应用强制横屏
+
 ## 购物类
 
 ### 京东(com.jingdong.app.mall)
@@ -194,6 +204,48 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 5. 优化应用元素布局排列
 
+### QQ邮箱(com.tencent.androidqqmail)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配邮件列表与邮件详情的平行窗口体验
+
+2. 适配小米平行窗口滑动条，且可拖拽至全屏
+
+### 百度网盘(com.baidu.netdisk)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配首页、启动页全屏化，提高大屏设备沉浸体验
+
+2. 适配高频页面递进的平行窗口
+
+3. 适配小米平行窗口滑动条，且可拖拽至全屏
+
+### 百度网盘(com.chinamobile.mcloud)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配首页、启动页全屏化，提高大屏设备沉浸体验
+
+2. 适配高频页面递进的平行窗口
+
+3. 适配视频播放界面全屏化
+
+4. 适配小米平行窗口滑动条，且可拖拽至全屏
+
 ## 社区类
 
 ### 小黑盒(com.max.xiaoheihe)
@@ -241,6 +293,20 @@ Android 14+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 3. 适配图片、视频浏览时提供全屏化体验
 
 4. 适配小米平行窗口滑动条，且可拖拽至全屏
+
+### 米画师(com.qixin.mihuas)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配首页全屏化，提高大屏设备沉浸体验
+
+2. 适配高频页面递进的平行窗口
+
+3. 适配小米平行窗口滑动条，且可拖拽至全屏
 
 ## 浏览器类
 
