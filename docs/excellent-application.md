@@ -367,8 +367,62 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 2. 适配商城页平行窗口
 
+## 系统应用类
 
+### 传送门(com.miui.contentextension)
 
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配传送门支持横屏使用
+
+请搭配<小米平板系统应用补全模块>食用
+
+链接:  https://caiyun.139.com/m/i?135CdmTueSsF2
+提取码:  c5yu
+
+### 小爱同学(com.miui.voiceassist)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配小爱同学部分场景会被强制扭转为竖屏的问题
+
+### 手机管家/平板管家(com.miui.securitycenter)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1.适配"游戏显示布局"不能正常横屏的问题
+
+### 搜索(com.android.quicksearchbox)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配搜索部分场景会被强制扭转为竖屏的问题
+
+### 百度输入法小米版(com.baidu.input_mi)
+
+适配兼容性:
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1. 适配百度输入法小米版管理面板不能正常横屏显示的问题
 
 ## 打赏
 
