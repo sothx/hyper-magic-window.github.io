@@ -444,6 +444,11 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 1. 适配小米悬浮球无法横屏全屏的问题
 
+请搭配<小米平板系统应用补全模块>食用
+
+链接:  https://caiyun.139.com/m/i?135CdmTueSsF2
+提取码:  c5yu
+
 ### 小米白噪音(com.miui.whitenoise)
 
 适配兼容性:
