@@ -34,6 +34,8 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 2.适配类IM平行窗口，首页默认分屏，与类似QQ/微信同等的类IM适配体验
 
+3.适配小米平行窗口滑动条，且可拖拽至全屏
+
 ## 购物类
 
 ### 京东(com.jingdong.app.mall)
@@ -46,7 +48,7 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 1.首页体验全屏化(京东首次安装启动界面是异常的，需要第二次启动才是正常平板适配)
 
-2.适配小米平行窗口滑动条
+2.适配小米平行窗口滑动条，且可拖拽至全屏
 
 ## 视频类
 
@@ -62,7 +64,9 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 2.适配首页默认分屏，并且自动递进高频页面的平行窗口，提高平行窗口的使用体验
 
-3.适配短视频应用全屏化
+3.适配小米平行窗口滑动条，且可拖拽至全屏
+
+4.适配短视频应用全屏化
 
 ### 哔哩哔哩HD(tv.danmaku.bilibilihd)
 
@@ -164,9 +168,11 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 2.适配高频页面递进的平行窗口
 
-3.适配画布界面全屏化
+3.适配小米平行窗口滑动条，且可拖拽至全屏
 
-4.优化应用元素布局排列
+4.适配画布界面全屏化
+
+5.优化应用元素布局排列
 
 ## 社区类
 
@@ -182,7 +188,9 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad
 
 2.适配高频页面递进的平行窗口
 
-3.适配小黑盒小程序应用全屏化
+3.适配小米平行窗口滑动条，且可拖拽至全屏
+
+4.适配小黑盒小程序应用全屏化
 
 ### 微博轻享版(com.weico.international)
 
@@ -195,6 +203,8 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 1.适配首页全屏化，提高大屏设备沉浸体验(开屏页无法全屏化)
 
 2.适配高频页面递进的平行窗口
+
+3.适配小米平行窗口滑动条，且可拖拽至全屏
 
 ### X(com.twitter.android)
 
@@ -209,6 +219,8 @@ Android 14+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 2.适配高频页面递进的平行窗口
 
 3.适配图片、视频浏览时提供全屏化体验
+
+4.适配小米平行窗口滑动条，且可拖拽至全屏
 
 ## 浏览器类
 
