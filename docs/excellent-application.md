@@ -38,6 +38,20 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 ## 视频类
 
+### 哔哩哔哩/哔哩哔哩概念版/哔哩哔哩国际版(tv.danmaku.bili/com.bilibili.app.in/com.bilibili.app.blue)
+
+适配兼容性: 
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
+适配简述:
+
+1.适配开屏页全屏化，提高平板沉浸体验
+
+2.适配首页默认分屏，并且自动递进高频页面的平行窗口，提高平行窗口的使用体验
+
+3.适配短视频应用全屏化
+
 ### 哔哩哔哩HD(tv.danmaku.bilibilihd)
 
 适配兼容性: 
