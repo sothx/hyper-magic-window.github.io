@@ -182,6 +182,20 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 2.适配高频页面递进的平行窗口
 
+### X(com.twitter.android)
+
+适配兼容性:
+
+Android 14+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fold
+
+适配简述:
+
+1.适配首页全屏化，提高平板沉浸体验
+
+2.适配高频页面递进的平行窗口
+
+3.适配图片、视频浏览时提供全屏化体验
+
 ## 浏览器类
 
 ### 小米内置浏览器(com.android.browser)
