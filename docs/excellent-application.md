@@ -60,6 +60,19 @@ Android 13+ | MIUI For Pad | Hyper OS For Pad | MIUI For Fold | Hyper OS For Fol
 
 2. 适配小米平行窗口滑动条，且可拖拽至全屏
 
+### 小米商城(com.xiaomi.shop)
+
+适配兼容性: 
+
+Android 13+ | MIUI For Pad | Hyper OS For Pad
+
+适配简述:
+
+1. 在平板设备上默认平行窗口的分屏比例为0.5，提高小米商城的横屏使用体验
+
+2. 适配小米平行窗口滑动条，且可拖拽至全屏
+
+
 ## 视频类
 
 ### 哔哩哔哩/哔哩哔哩概念版/哔哩哔哩国际版(tv.danmaku.bili/com.bilibili.app.in/com.bilibili.app.blue)
