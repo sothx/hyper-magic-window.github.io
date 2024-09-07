@@ -10,6 +10,9 @@ hero:
     - theme: brand
       text: 下载
       link: /module-download
+    - theme: brand
+      text: 精选应用
+      link: /excellent-application
     - theme: alt
       text: 自定义规则(Beta)
       link: /custom-config
