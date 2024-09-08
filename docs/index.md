@@ -11,6 +11,9 @@ hero:
       text: 下载
       link: /module-download
     - theme: alt
+      text: 打赏
+      link: /donation
+    - theme: alt
       text: 精选应用
       link: /excellent-application
     - theme: alt
