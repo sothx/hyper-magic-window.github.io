@@ -15,6 +15,7 @@ export default defineConfig({
       { text: '自定义规则(Beta)', link: '/custom-config' },
       { text: '游戏显示布局', link: '/game-mode' }, 
       { text: '问题合集(FAQ)', link: '/FAQ' },
+      { text: '许可协议', link: '/license-agreement' },
       { text: '感谢', link: '/thanks' },
     ],
 

@@ -26,6 +26,9 @@ hero:
       text: 问题合集(FAQ)
       link: /FAQ
     - theme: alt
+      text: 许可协议
+      link: /license-agreement
+    - theme: alt
       text: Github
       link: https://github.com/sothx/mipad-magic-window
 features:
