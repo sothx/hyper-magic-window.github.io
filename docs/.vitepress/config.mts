@@ -10,12 +10,12 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '下载', link: '/module-download' },
-      { text: '打赏', link: '/donation'},
       { text: '精选应用', link: '/excellent-application' },
       { text: '自定义规则(Beta)', link: '/custom-config' },
       { text: '游戏显示布局', link: '/game-mode' }, 
       { text: '问题合集(FAQ)', link: '/FAQ' },
       { text: '许可协议', link: '/license-agreement' },
+      { text: '打赏', link: '/donation'},
       { text: '感谢', link: '/thanks' },
     ],
 
