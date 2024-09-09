@@ -11,9 +11,6 @@ hero:
       text: 下载
       link: /module-download
     - theme: alt
-      text: 打赏
-      link: /donation
-    - theme: alt
       text: 精选应用
       link: /excellent-application
     - theme: alt
@@ -28,6 +25,9 @@ hero:
     - theme: alt
       text: 许可协议
       link: /license-agreement
+    - theme: alt
+      text: 打赏
+      link: /donation
     - theme: alt
       text: Github
       link: https://github.com/sothx/mipad-magic-window
