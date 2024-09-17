@@ -39,6 +39,16 @@ outline: deep
 
 模块简介：适配小米平板6S Pro，基本跟安卓14通用版模块一致，仅针对部分应用在3：2比例下体验不佳的情况进行差异化适配。
 
+### 小米平板6 Pro(liuqin)澎湃专版(仅适配小米平板6 Pro，不适用于6/6 Max/6S Pro)
+
+模块安装包名称：pad-liuqin-for-hyperos-x.xx.xx.zip
+
+模块简介：
+
+仅适用于小米平板6(liuqin) 的小米官方 Hyper OS For Pad，该模块会强制未适配已自适配平行窗口的应用走系统反向适配，该版本存在一定的卡米风险，需要自行救砖，该版本误装会100%卡米！！！
+
+该模块不同于通用版模块，推荐系统更新前先卸载本模块，避免卡米，系统更新后再尝试安装本模块。
+
 
 ### 小米平板6(pipa)澎湃专版(仅适配小米平板6，不适用于6 Pro/6 Max/6S Pro)
 
@@ -83,6 +93,7 @@ MIUI14的6 Max移植包可以自行在酷安搜索，不属于完美横屏应用
     -   小米平板安卓11通用版(pad-magicWindow-x.xx.xx.zip)
     -   小米折叠屏通用版(fold-x.xx.xx.zip)
     -   小米平板6S Pro专版(pad-ratioOf3To2-x.xx.xx.zip)
+    -   小米平板6 Pro(liuqin)澎湃专版(pad-liuqin-for-hyperos-x.xx.xx.zip)
     -   小米平板6(pipa)澎湃专版(pad-pipa-for-hyperos-x.xx.xx.zip)
     -   小米平板5系列安卓13澎湃专版(pad-hyperos-based-on-tiramisu-x.xx.xx.zip)
     -   MIUI 14的6 Max移植包专版(pad-transplant-6max-based-on-tiramisu-x.xx.xx.zip)
