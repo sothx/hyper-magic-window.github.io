@@ -90,7 +90,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
   <setting name="com.tencent.mobileqq" miuiMagicWinEnabled="true" miuiDialogShown="false" miuiDragMode="0"/>
 ```
 
-以上所有修改均需要手动重启平板后生效～
+以上所有修改后，可以通过MT管理器执行/data/adb/MIUI_MagicWindow+/config/update_rules.sh文件，让以上的修改生效，记得勾选上"使用系统环境执行"和"使用ROOT权限执行"，再点击"执行"~
 
 ## 系统规则路径
 
