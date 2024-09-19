@@ -64,12 +64,18 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
   <!--取消微信的左右滑动调节-->
   <package name="com.tencent.mm" disable="true" isShowDivider="false" />
+  <!--让哔哩哔哩漫画以接近手机的比例去显示-->
+  <package name="com.bilibili.comic" relaunch="false" supportFullSize="true" ratio="1.5" />
+  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示-->
+  <package name="com.bilibili.comic" relaunch="false" supportFullSize="true" ratio="1.1" />
 ```
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/autoui_list.xml -->
   <!--禁用QQ邮箱的应用布局优化-->
   <package name="com.tencent.androidqqmail" enable="false" />
+  <!--缩放酷狗概念版的整体界面(不是所有应用都有效)-->
+  <package name="com.kugou.android.lite" enable="true" activityRule="*:0" />
 ```
 
 - Android 11

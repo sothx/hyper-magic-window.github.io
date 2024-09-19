@@ -94,7 +94,7 @@ MIUI14的6 Max移植包可以自行在酷安搜索，不属于完美横屏应用
     -   小米平板安卓13通用版(pad-not-dragable-x.xx.xx.zip)
     -   小米平板安卓11通用版(pad-magicWindow-x.xx.xx.zip)
     -   小米折叠屏通用版(fold-x.xx.xx.zip)
-    -   小米平板6S Pro专版(pad-ratioOf3To2-x.xx.xx.zip)
+    -   小米平板6S Pro专版(pad-sheng-for-hyperos-x.xx.xx.zip)
     -   小米平板6 Pro(liuqin)澎湃专版(pad-liuqin-for-hyperos-x.xx.xx.zip)
     -   小米平板6(pipa)澎湃专版(pad-pipa-for-hyperos-x.xx.xx.zip)
     -   小米平板5系列安卓13澎湃专版(pad-hyperos-based-on-tiramisu-x.xx.xx.zip)
