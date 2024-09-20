@@ -91,14 +91,14 @@ MIUI14的6 Max移植包可以自行在酷安搜索，不属于完美横屏应用
 
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
     -   小米平板安卓14通用版(pad-x.xx.xx.zip)
-    -   小米平板安卓13通用版(pad-not-dragable-x.xx.xx.zip)
+    -   小米平板安卓13通用版(pad-general-tiramisu-x.xx.xx.zip)
     -   小米平板安卓11通用版(pad-magicWindow-x.xx.xx.zip)
     -   小米折叠屏通用版(fold-x.xx.xx.zip)
-    -   小米平板6S Pro专版(pad-sheng-for-hyperos-x.xx.xx.zip)
-    -   小米平板6 Pro(liuqin)澎湃专版(pad-liuqin-for-hyperos-x.xx.xx.zip)
-    -   小米平板6(pipa)澎湃专版(pad-pipa-for-hyperos-x.xx.xx.zip)
+    -   小米平板6S Pro专版(pad-sheng-for-pad-x.xx.xx.zip)
+    -   小米平板6 Pro(liuqin)澎湃专版(pad-liuqin-for-pad-x.xx.xx.zip)
+    -   小米平板6(pipa)澎湃专版(pad-pipa-for-pad-x.xx.xx.zip)
     -   小米平板5系列安卓13澎湃专版(pad-hyperos-based-on-tiramisu-x.xx.xx.zip)
-    -   MIUI 14的6 Max移植包专版(pad-transplant-6max-based-on-tiramisu-x.xx.xx.zip)
+    -   小米平板6 Max(yudi)专版(pad-yudi-for-pad-x.xx.xx.zip)
     -   自用测试版，个人测试用途，请勿下载，很不稳定(pad-ext-x.xx.xx.zip)
 
 > Github Release 和 移动云盘均包含最新版本和历史版本的模块安装包
