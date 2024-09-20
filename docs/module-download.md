@@ -15,7 +15,7 @@ outline: deep
 
 ### 小米平板安卓13通用版(无左右滑动调节)
 
-模块安装包名称：pad-not-dragable-x.xx.xx.zip
+模块安装包名称：pad-general-tiramisu-x.xx.xx.zip
 
 模块简介：适配Android 13下不支持平行窗口左右滑动条的MIUI For Pad/Hyper OS For Pad，以及各类基于Android 13的MIUI For Pad/Hyper OS For Pad第三方移植包机型
 
@@ -35,7 +35,7 @@ outline: deep
 
 ### 小米平板6S Pro澎湃专版(仅适配小米平板6S Pro，不适用于6/6 Pro/6 Max)
 
-模块安装包名称：pad-sheng-for-hyperos-x.xx.xx.zip
+模块安装包名称：pad-sheng-for-pad-x.xx.xx.zip
 
 模块简介：适配小米平板6S Pro，针对部分应用在3：2比例下体验不佳的情况进行差异化适配，并且会强制禁用所有小米平板专有的阻止系统反向适配平行窗口的属性(Google Embedded Activity规范除外)，因此可以额外对很多应用进行精适配，该版本存在一定的卡米风险，需要自行救砖，该版本误装会100%卡米！！！
 
@@ -43,7 +43,7 @@ outline: deep
 
 ### 小米平板6 Pro(liuqin)澎湃专版(仅适配小米平板6 Pro，不适用于6/6 Max/6S Pro)
 
-模块安装包名称：pad-liuqin-for-hyperos-x.xx.xx.zip
+块安装包名称：pad-liuqin-for-pad-x.xx.xx.zip
 
 模块简介：
 
@@ -54,7 +54,7 @@ outline: deep
 
 ### 小米平板6(pipa)澎湃专版(仅适配小米平板6，不适用于6 Pro/6 Max/6S Pro)
 
-模块安装包名称：pad-pipa-for-hyperos-x.xx.xx.zip
+模块安装包名称：pad-pipa-for-pad-x.xx.xx.zip
 
 模块简介：
 
@@ -72,9 +72,9 @@ outline: deep
 
 该模块不同于通用版模块，推荐系统更新前先卸载本模块，避免卡米，系统更新后再尝试安装本模块。
 
-### MIUI 14的6 Max移植包专版(仅适用于第三方移植包)
+### 小米平板6 Max(yudi)专版(仅适配小米平板6 Max，不适用于6/6 Pro/6S Pro)
 
-模块安装包名称：pad-transplant-6max-based-on-tiramisu-x.xx.xx.zip
+模块安装包名称：pad-yudi-for-pad-x.xx.xx.zip
 
 模块简介：
 
