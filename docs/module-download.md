@@ -80,6 +80,16 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
 
 该版本存在一定的卡米风险，需要自行救砖，该版本误刷会100%卡米！！！！！！
 
+### 小米平板5 Pro 12.4(dagu)专版(仅适配小米平板5 Pro 12.4，不适用于5/5 Pro/5 Pro 5G)
+
+模块安装包名称：pad-dagu-device-code-x.xx.xx.zip
+
+模块简介：
+
+适配小米平板5 Pro 12.4的Hyper OS For Pad，并且会强制禁用所有小米平板专有的阻止系统反向适配平行窗口的属性(Google Embedded Activity规范除外)，因此可以额外对很多应用进行精适配。
+
+该版本存在一定的卡米风险，需要自行救砖，该版本误刷会100%卡米！！！！！！
+
 ### 小米平板5系列安卓13澎湃专版
 
 模块安装包名称：pad-hyperos-based-on-tiramisu-x.xx.xx.zip
