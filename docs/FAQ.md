@@ -64,13 +64,13 @@ Android 11 的模块在安装后，所有应用的横屏模式强制开启，无
 
 1. 基于Flutter/React Native/网页套壳类App，由于多数页面共用一个Activity，除非应用主动适配平板，被动适配大多体验不佳，对这类应用大多仅有信箱模式/强制横屏这两种适配方法。(如酷我音乐、酷狗音乐概念版等)
 
-2. 应用本身已经自适配平板，模块无法再介入平行窗口相关的适配规则。(如微信、酷安、微博、豆瓣等)
+2. 应用本身已经自适配平板，模块无法再介入平行窗口相关的适配规则。(如微信、酷安、微博、豆瓣等)，Hyper OS 2.0起，可以通过kipSelfAdaptive="true"，强制某些应用走系统的平行窗口适配规则。
 
 ### 6. 安装模块后为什么仍然不支持左右滑动调节？
 
 1. 左右滑动调节小米仅在 Android 14+ 的 Hyper OS For Pad 全量下放，首先请确保你的系统至少是Android 14 +起步，安装模块后才能有左右滑动调节。
-2. 小米平板5/小米平板5 Pro/小米平板5 Pro 5G已经升级到官方基于 Android 13 的 Hyper OS(非官改非移植包)，可以尝试安装"小米平板5系列安卓13澎湃专版"模块版本，刷入后可支持左右滑动调节，但是存在卡米的风险，请谨慎使用，出现问题请自行救砖。 
-3. Android 13下有且仅有 Xiaomi Pad 6 Max 原生支持左右滑动调节，如果你的系统是基于Xiaomi Pad 6 Max 的 MIUI 14 第三方移植ROM，可以尝试安装"基于MIUI14的6 Max移植包"模块版本，刷入后可支持左右滑动调节，但是存在卡米的风险，请谨慎使用，出现问题请自行救砖。 
+2. 小米平板5/小米平板5 Pro/小米平板5 Pro 5G已经升级到官方基于 Android 13 的 Hyper OS(非官改非移植包)，可以尝试安装"小米平板5系列安卓13澎湃专版"模块版本，刷入后可支持左右滑动调节，安装前请自备救砖模块。 
+3. Android 13下有且仅有 Xiaomi Pad 6 Max 原生支持左右滑动调节，如果你的系统是基于Xiaomi Pad 6 Max 的 MIUI 14 第三方移植ROM，可以尝试安装"小米平板6系列MIUI14专版"模块版本，刷入后可支持左右滑动调节，安装前请自备救砖模块。 
 4. 并不是所有的应用都会加左右滑动调节，部分应用左右滑动调节后适配体验不佳，因此去除了该应用针对左右滑动调节的适配。
 
 ### 7. 我可以让一些只有横屏的应用，也能在竖屏时候使用么？例如哔哩哔哩HD？
@@ -134,15 +134,7 @@ Android 11 的模块在安装后，所有应用的横屏模式强制开启，无
 
 模块V13版本起已经简化模块的卸载流程，可以在Magisk移除本模块，重启后即可恢复为设备出厂的规则。
 
-V13之前的老版本模块需要安装对应的卸载模块，重启后再移除卸载模块，再重启，此时才能完成模块的卸载，未遵守模块卸载方法导致的任何问题，请自行解决。
-
 模块会锁定部分系统文件防止被系统云控覆盖模块的规则，可能会导致系统升级的时候因为权限不足导致卡米（存在概率，不敢保证），也可以提前使用卸载模块卸载后，再对系统进行升级。
-
-请通过[GitHub Release](https://github.com/sothx/mipad-magic-window/releases/)搜索当前老版本的卸载模块进行卸载
-
--  小米平板安卓12L以上的卸载模块(uninstall-pad-x.xx.xx.zip)
--  小米平板安卓11的卸载模块(uninstall-pad-magicWindow-x.xx.xx.zip)
--  小米折叠屏的卸载模块(uninstall-fold-x.xx.xx.zip)
 
 ## 二、应用适配
 
@@ -153,6 +145,19 @@ V13之前的老版本模块需要安装对应的卸载模块，重启后再移�
 ### 2. 为什么抖音不能全屏了？
 
 如果有使用改机型的模块，会导致抖音评论区丢失横屏，可以通过模块V13版本提供的[自定义规则](https://hyper-magic-window.sothx.com/custom-config.html)，为抖音添加强制横屏的适配规则。
+
+- Hyper OS 2.0
+```xml
+<!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
+  <!--抖音增加强制横屏的选项-->
+  <package name="com.ss.android.ugc.aweme" supportModes="full,fo" defaultSettings="full" />
+  <!--抖音火山版增加强制横屏的选项-->
+  <package name="com.ss.android.ugc.live" supportModes="full,fo" defaultSettings="full" />
+  <!--抖音极速版增加强制横屏的选项-->
+  <package name="com.ss.android.ugc.aweme.lite" supportModes="full,fo" defaultSettings="full" />
+```
+
+- MIUI13到Hyper OS 1.0
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->

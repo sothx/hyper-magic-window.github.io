@@ -136,6 +136,7 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
     -   小米平板6(pipa)澎湃专版(pad-pipa-device-code-x.xx.xx.zip)
     -   小米平板5系列安卓13澎湃专版(pad-hyperos-based-on-tiramisu-x.xx.xx.zip)
     -   小米平板6 Max(yudi)专版(pad-yudi-device-code-x.xx.xx.zip)
+    -   小米平板6系列MIUI14专版(pad-miui-based-on-tiramisu-x.xx.xx.zip)
     -   自用测试版，个人测试用途，请勿下载，很不稳定(pad-ext-x.xx.xx.zip)
 
 > Github Release 和 移动云盘均包含最新版本和历史版本的模块安装包

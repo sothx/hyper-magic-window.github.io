@@ -48,7 +48,19 @@ outline: deep
 
 Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米有单独一套自己的强制横屏策略，因此不生效。
 
-- Android 12+
+- Hyper OS 2.0
+```xml
+<!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
+  <!--QQ音乐增加强制横屏和居中布局的选项，且默认强制横屏-->
+  <package name="com.tencent.qqmusic" supportModes="full,fo" ratio="1.1" defaultSettings="full" />
+  <!--让哔哩哔哩漫画以接近手机的比例去显示，且默认居中布局-->
+  <package name="com.bilibili.comic" supportModes="full,fo" supportFullSize="true" ratio="1.5" defaultSettings="fo" />
+  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示，且默认居中布局-->
+  <package name="com.bilibili.comic" supportModes="full,fo" supportFullSize="true" ratio="1.1" defaultSettings="fo" />
+```
+
+
+- MIUI13到Hyper OS 1.0
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
@@ -162,7 +174,9 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 
 1. 为什么有些应用强制横屏没有用？
 
-如果一些应用自身已经做了平板适配，此时可能会导致强制横屏的逻辑不生效，可以通过禁用该应用的信箱模式，再添加强制横屏的规则，实现强制横屏。
+如果一些应用自身已经做了平板适配，此时可能会导致强制横屏的逻辑不生效，可以通过禁用该应用的信箱模式，再添加强制横屏的规则，实现强制横屏。(Hyper OS 2.0+起无此问题)
+
+- MIUI13到Hyper OS 1.0
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
