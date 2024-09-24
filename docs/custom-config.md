@@ -51,12 +51,14 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 - Hyper OS 2.0
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
-  <!--QQ音乐增加强制横屏和居中布局的选项，且默认强制横屏-->
+  <!--QQ音乐增加强制横屏和居中布局的选项，且默认强制横屏[Hyper OS 2.0 +]-->
   <package name="com.tencent.qqmusic" supportModes="full,fo" ratio="1.1" defaultSettings="full" />
-  <!--让哔哩哔哩漫画以接近手机的比例去显示，且默认居中布局-->
+  <!--让哔哩哔哩漫画以接近手机的比例去显示，且默认居中布局[Hyper OS 2.0 +]-->
   <package name="com.bilibili.comic" supportModes="full,fo" supportFullSize="true" ratio="1.5" defaultSettings="fo" />
-  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示，且默认居中布局-->
+  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示，且默认居中布局[Hyper OS 2.0 +]-->
   <package name="com.bilibili.comic" supportModes="full,fo" supportFullSize="true" ratio="1.1" defaultSettings="fo" />
+    <!--取消微信的左右滑动调节[Hyper OS 2.0 +]-->
+  <package name="com.tencent.mm" supportModes="full,fo" isShowDivider="false" supportFullSize="true" />
 ```
 
 
@@ -64,21 +66,21 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
-  <!--QQ音乐强制横屏-->
+  <!--QQ音乐强制横屏[MIUI13-Hyper OS 1.0]-->
   <package name="com.tencent.qqmusic" fullRule="nra:cr:rcr:nr" />
-  <!--推特强制横屏-->
+  <!--推特强制横屏[MIUI13-Hyper OS 1.0]-->
   <package name="com.twitter.android" fullRule="nra:cr:rcr:nr" />
-  <!--让哔哩哔哩HD在竖屏时候也能使用-->
+  <!--让哔哩哔哩HD在竖屏时候也能使用[MIUI13-Hyper OS 1.0]-->
   <package name="tv.danmaku.bilibilihd" fullRule="nra:cr:rcr:nr" />
 ```
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
-  <!--取消微信的左右滑动调节-->
+  <!--取消微信的左右滑动调节[MIUI13-Hyper OS 1.0]-->
   <package name="com.tencent.mm" disable="true" isShowDivider="false" />
-  <!--让哔哩哔哩漫画以接近手机的比例去显示-->
+  <!--让哔哩哔哩漫画以接近手机的比例去显示[MIUI13-Hyper OS 1.0]-->
   <package name="com.bilibili.comic" relaunch="false" supportFullSize="true" ratio="1.5" />
-  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示-->
+  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示[MIUI13-Hyper OS 1.0]-->
   <package name="com.bilibili.comic" relaunch="false" supportFullSize="true" ratio="1.1" />
 ```
 
