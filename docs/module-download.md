@@ -6,13 +6,13 @@ outline: deep
 
 ## 版本说明
 
-### 小米平板安卓15测试(Beta)版(仅适配Hyper OS 2.0+)
+### 小米平板Hyper OS 2.0测试(Beta)版(仅适配Hyper OS 2.0)
 
 模块安装包名称：pad-x.xx.xx.zip
 
 模块简介：适配基于Hyper OS for Pad 2.0及以上版本，以及各类基于Hyper OS 2.0及以上版本的Hyper OS For Pad第三方移植包的机型
 
-### 小米手机妙享桌面版(仅适配Hyper OS 2.0+)
+### 小米手机妙享桌面版(仅适配Hyper OS 2.0)
 
 模块安装包名称：phone-x.xx.xx.zip
 
