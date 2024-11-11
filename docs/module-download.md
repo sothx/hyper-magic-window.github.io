@@ -6,11 +6,17 @@ outline: deep
 
 ## 版本说明
 
-### 小米平板安卓15测试(Beta)版(仅适配Android 15+)
+### 小米平板安卓15测试(Beta)版(仅适配Hyper OS 2.0+)
 
 模块安装包名称：pad-x.xx.xx.zip
 
-模块简介：适配基于Android 15+的Hyper OS for Pad，以及各类基于Android 15+的Hyper OS For Pad第三方移植包的机型
+模块简介：适配基于Hyper OS for Pad 2.0及以上版本，以及各类基于Hyper OS 2.0及以上版本的Hyper OS For Pad第三方移植包的机型
+
+### 小米手机妙享桌面版(仅适配Hyper OS 2.0+)
+
+模块安装包名称：phone-x.xx.xx.zip
+
+模块简介：适配基于Hyper OS 2.0+的小米/红米手机，扩展并优化妙享桌面在平板或者小米汽车上流转应用后的平行窗口适配体验
 
 ### 小米平板安卓14通用版(仅适配Android 14)
 
@@ -82,6 +88,7 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
 
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
     -   小米平板安卓15测试(Beta)版(pad-x.xx.xx.zip)
+    -   小米手机妙享桌面版(phone-x.xx.xx.zip)
     -   小米平板安卓14通用版(pad-general-upsideDownCake-x.xx.xx.zip)
     -   小米平板安卓13通用版(pad-general-tiramisu-x.xx.xx.zip)
     -   小米平板安卓11通用版(pad-magicWindow-x.xx.xx.zip)
