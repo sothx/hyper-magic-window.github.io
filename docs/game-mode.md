@@ -10,7 +10,7 @@ outline: deep
 
 Android 15+ 需要搭配修改版的手机管家/平板管家才会生效：
 
--  [移动云盘下载](https://caiyun.139.com/m/i?135CmUWDgnbAM)
+-  [移动云盘下载](https://caiyun.139.com/m/i?135CeBMHACC6p)
 
 ## 如何使用
 
