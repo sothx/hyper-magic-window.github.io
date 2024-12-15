@@ -32,11 +32,13 @@ hero:
       text: Github
       link: https://github.com/sothx/mipad-magic-window
 features:
-  - title: 平板不再停留于只看电影只打游戏
-    details: 模块集成了近 8000+ 应用适配规则
-  - title: 800+ 应用深度适配
-    details: 超 800+ 常用应用精适配
-  - title: 告别扭脖子
-    details: 不再为应用横竖屏乱窜烦恼
+  - title: 平板不只是 "大号手机"
+    details: 集成了 8000+ 大屏应用适配规则
+  - title: 高频应用深度适配
+    details: 超 800+ 常用大屏应用精适配
+  - title: 游戏视野 "大满贯"
+    details: 可任意调节游戏比例和位置，获得更大的游戏视野
+  - title: 全新 Web UI 控制面板
+    details: 可视化管理模块的各项功能，柔性布局灵活响应不同设备的屏幕尺寸
 ---
 
