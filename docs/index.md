@@ -35,7 +35,7 @@ features:
   - title: 平板不只是 "大号手机"
     details: 集成了 8000+ 大屏应用适配规则
   - title: 高频应用深度适配
-    details: 超 800+ 常用大屏应用精适配
+    details: 针对 800+ 款常用大屏应用进行精适配
   - title: 游戏视野 "大满贯"
     details: 可任意调节游戏比例和位置，获得更大的游戏视野
   - title: 全新 Web UI 控制面板
