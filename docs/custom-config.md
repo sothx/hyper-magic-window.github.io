@@ -27,10 +27,22 @@ outline: deep
 目录下仅支持以下指定文件：
 
 ```bash
+# Hyper OS 2.0+
+# 覆盖平行窗口的部分应用配置
+/data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
+# 覆盖居中布局的部分应用配置
+/data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
+# 配置应用的布局形态[平行窗口/居中布局/原始布局]
+/data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml
+# 覆盖应用布局优化的部分应用配置
+/data/adb/MIUI_MagicWindow+/config/autoui_list.xml
+```
+
+```bash
 # Android 12+
 # 覆盖平行窗口的部分应用配置
 /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
-# 覆盖信箱模式的部分应用配置
+# 覆盖居中布局的部分应用配置
 /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
 # 覆盖应用布局优化的部分应用配置
 /data/adb/MIUI_MagicWindow+/config/autoui_list.xml
@@ -46,21 +58,37 @@ outline: deep
 
 以下是文件的指定模板：
 
-Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米有单独一套自己的强制横屏策略，因此不生效。
+Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米有单独一套自己的强制横屏规则，由云控管理，模块暂未接管折叠屏的强制横屏规则，因此不生效。
 
 - Hyper OS 2.0
+
 ```xml
-<!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
-  <!--QQ音乐增加强制横屏和居中布局的选项，且默认强制横屏[Hyper OS 2.0 +]-->
-  <package name="com.tencent.qqmusic" supportModes="full,fo" ratio="1.1" defaultSettings="full" />
-  <!--让哔哩哔哩漫画以接近手机的比例去显示，且默认居中布局[Hyper OS 2.0 +]-->
-  <package name="com.bilibili.comic" supportModes="full,fo" supportFullSize="true" ratio="1.5" defaultSettings="fo" />
-  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示，且默认居中布局[Hyper OS 2.0 +]-->
-  <package name="com.bilibili.comic" supportModes="full,fo" supportFullSize="true" ratio="1.1" defaultSettings="fo" />
-    <!--取消微信的左右滑动调节[Hyper OS 2.0 +]-->
-  <package name="com.tencent.mm" supportModes="full,fo" isShowDivider="false" supportFullSize="true" />
+  <!--让QQ音乐的强制全屏布局[Hyper OS 2.0 +]-->
+  <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
+  <package name="com.tencent.qqmusic" supportModes="full,fo" defaultSettings="full" />
+  <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
+  <package name="com.tencent.qqmusic" fullRule="nra:cr:rcr:nr" />
+  <!-- /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml -->
+  <setting name="com.tencent.qqmusic" fullScreenEnable="true" ratio_fullScreenEnable="true" />
 ```
 
+```xml
+  <!--让哔哩哔哩漫画以接近大折叠屏的比例居中布局显示[Hyper OS 2.0 +]-->
+  <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
+  <package name="com.bilibili.comic" supportModes="full,fo" defaultSettings="fo" />
+  <!-- /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml -->
+  <setting name="com.bilibili.comic" fullScreenEnable="true" ratio_fullScreenEnable="true" />
+```
+
+```xml
+  <!--适配小米有品的平行窗口[Hyper OS 2.0 +]-->
+  <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml-->
+  <package name="com.xiaomi.youpin" supportFullSize="true" splitPairRule="com.xiaomi.youpin.activity.YouPinMainTabActivity:*,com.xiaomi.miot.store.mirn.RNMainActivity:*" placeholder="com.xiaomi.youpin.activity.YouPinMainTabActivity:com.xiaomi.profile.model.setting.SettingActivity" />
+  <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
+  <package name="com.xiaomi.youpin" relaunch="false" supportModes="full,fo" />
+  <!-- /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml -->
+  <setting name="com.xiaomi.youpin" embeddedEnable="true" ratio_fullScreenEnable="false" fixedOrientationEnable="false" />
+```
 
 - MIUI13到Hyper OS 1.0
 
