@@ -94,8 +94,11 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 
 如果需要可视化修改部分应用的适配规则，首选推荐可以尝试使用酷安 @CescMessi 开发的[完美横屏应用计划 X 自定义规则配置工具]:
 
+
 [完美横屏应用计划 X 自定义规则配置工具](https://www.coolapk.com/feed/59036538?shareKey=Y2RmNjgyYWY3OWQ3Njc3NDU0ZGI~&shareUid=2451811&shareFrom=com.coolapk.market_15.0.0-beta4)
-该工具目前尚未适配Hyper OS 2.0，MIUI14 - Hyper OS 1.0 下均可正常使用，本工具由酷安@CescMessi 开发维护，不属于[完美横屏应用计划]本身提供的工具链，如遇任何建议和BUG，请直接向工具开发者@CescMessi 反馈。
+
+
+该工具目前尚未适配Hyper OS 2.0，MIUI14 - Hyper OS 1.0 下均可正常使用，本工具由酷安@CescMessi 开发维护，本身不属于[完美横屏应用计划]本身提供的一部分内容，如遇任何建议和BUG，请直接向工具开发者@CescMessi 反馈。
 
 
 ```xml
