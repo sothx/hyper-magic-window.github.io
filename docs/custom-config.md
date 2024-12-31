@@ -32,7 +32,7 @@ outline: deep
 /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
 # 覆盖居中布局的部分应用配置
 /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml
-# 配置应用的布局形态[平行窗口/居中布局/原始布局]
+# 配置应用的布局形态[平行窗口/全屏/居中布局/原始布局]
 /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml
 # 覆盖应用布局优化的部分应用配置
 /data/adb/MIUI_MagicWindow+/config/autoui_list.xml
