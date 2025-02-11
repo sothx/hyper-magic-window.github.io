@@ -6,17 +6,11 @@ outline: deep
 
 ## 版本说明
 
-### 小米平板Hyper OS 2.0测试(Beta)版(仅适配Hyper OS 2.0)
+### 小米平板安卓15测试版(仅适配Android 15)
 
 模块安装包名称：pad-x.xx.xx.zip
 
-模块简介：适配基于Hyper OS for Pad 2.0及以上版本，以及各类基于Hyper OS 2.0及以上版本的Hyper OS For Pad第三方移植包的机型
-
-### 小米手机妙享桌面版(仅适配Hyper OS 2.0)
-
-模块安装包名称：phone-x.xx.xx.zip
-
-模块简介：适配基于Hyper OS 2.0+的小米/红米手机，扩展并优化妙享桌面在平板或者小米汽车上流转应用后的平行窗口适配体验
+模块简介：适配基于Android 15的Hyper OS for Pad，以及各类基于Android 15的Hyper OS For Pad第三方移植包的机型
 
 ### 小米平板安卓14通用版(仅适配Android 14)
 
@@ -80,6 +74,12 @@ outline: deep
 MIUI14 For Pad的小米平板6 Max移植包可以自行在酷安搜索，不属于完美横屏应用计划模块所负责的内容，不做过多赘述。
 
 MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升级完成后再进行安装，否则将会导致100%卡米。
+
+### 小米手机妙享桌面版(仅适配Hyper OS 2.0)
+
+模块安装包名称：phone-x.xx.xx.zip
+
+模块简介：适配基于Hyper OS 2.0+的小米/红米手机，扩展并优化妙享桌面在平板或者小米汽车上流转应用后的平行窗口适配体验
 
 
 ## 下载
