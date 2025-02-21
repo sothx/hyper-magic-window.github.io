@@ -27,7 +27,7 @@ outline: deep
 目录下仅支持以下指定文件：
 
 ```bash
-# Hyper OS 2.0+
+# Android 15+(仅平板端，折叠屏仍参考Android 12+)
 # 覆盖平行窗口的部分应用配置
 /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
 # 覆盖居中布局的部分应用配置
@@ -39,7 +39,7 @@ outline: deep
 ```
 
 ```bash
-# Android 12+
+# Android 12-Android14(包括折叠屏Android15)
 # 覆盖平行窗口的部分应用配置
 /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml
 # 覆盖居中布局的部分应用配置
@@ -60,10 +60,10 @@ outline: deep
 
 Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米有单独一套自己的强制横屏规则，由云控管理，模块暂未接管折叠屏的强制横屏规则，因此不生效。
 
-- Hyper OS 2.0
+- Android 15+，仅平板端，折叠屏仍参考Android 12+
 
 ```xml
-  <!--让QQ音乐的强制全屏布局[Hyper OS 2.0 +]-->
+  <!--让QQ音乐的强制全屏布局[Android 15+，仅平板端，折叠屏仍参考Android 12+]-->
   <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
   <package name="com.tencent.qqmusic" supportModes="full,fo" defaultSettings="full" />
   <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
@@ -73,24 +73,22 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 ```
 
 ```xml
-  <!--让哔哩哔哩漫画以接近大折叠屏的比例居中布局显示[Hyper OS 2.0 +]-->
+  <!--让哔哩哔哩漫画以接近大折叠屏的比例居中布局显示[Android 15+，仅平板端，折叠屏仍参考Android 12+]-->
   <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
   <package name="com.bilibili.comic" supportModes="full,fo" defaultSettings="fo" />
   <!-- /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml -->
-  <setting name="com.bilibili.comic" fullScreenEnable="true" ratio_fullScreenEnable="true" />
+  <setting name="com.bilibili.comic" fixedOrientationEnable="true" />
 ```
 
 ```xml
-  <!--适配小米有品的平行窗口[Hyper OS 2.0 +]-->
+  <!--适配小米有品的平行窗口[Android 15+，仅平板端，折叠屏仍参考Android 12+]-->
   <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml-->
   <package name="com.xiaomi.youpin" supportFullSize="true" splitPairRule="com.xiaomi.youpin.activity.YouPinMainTabActivity:*,com.xiaomi.miot.store.mirn.RNMainActivity:*" placeholder="com.xiaomi.youpin.activity.YouPinMainTabActivity:com.xiaomi.profile.model.setting.SettingActivity" />
-  <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
-  <package name="com.xiaomi.youpin" relaunch="false" supportModes="full,fo" />
   <!-- /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml -->
-  <setting name="com.xiaomi.youpin" embeddedEnable="true" ratio_fullScreenEnable="false" fixedOrientationEnable="false" />
+  <setting name="com.xiaomi.youpin" embeddedEnable="true" />
 ```
 
-- MIUI14到Hyper OS 1.0
+- Android 12-Android14(包括折叠屏Android15)
 
 如果需要可视化修改部分应用的适配规则，首选推荐可以尝试使用酷安 @CescMessi 开发的[完美横屏应用计划 X 自定义规则配置工具]:
 
@@ -98,26 +96,26 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 [完美横屏应用计划 X 自定义规则配置工具](https://www.coolapk.com/feed/59036538?shareKey=Y2RmNjgyYWY3OWQ3Njc3NDU0ZGI~&shareUid=2451811&shareFrom=com.coolapk.market_15.0.0-beta4)
 
 
-该工具目前尚未适配Hyper OS 2.0，MIUI14 - Hyper OS 1.0 下均可正常使用，本工具由酷安@CescMessi 开发维护，本身不属于[完美横屏应用计划]本身提供的一部分内容，如遇任何建议和BUG，请直接向工具开发者@CescMessi 反馈。
+该工具目前尚未适配平板端Android 15，Android 12-Android14(包括折叠屏Android15)下均可正常使用，本工具由酷安@CescMessi 开发维护，本身不属于[完美横屏应用计划]本身提供的一部分内容，如遇任何建议和BUG，请直接向工具开发者@CescMessi 反馈。
 
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
-  <!--QQ音乐强制横屏[MIUI13-Hyper OS 1.0]-->
+  <!--QQ音乐强制横屏[Android 12-Android14(包括折叠屏Android15)]-->
   <package name="com.tencent.qqmusic" fullRule="nra:cr:rcr:nr" />
-  <!--推特强制横屏[MIUI13-Hyper OS 1.0]-->
+  <!--推特强制横屏[Android 12-Android14(包括折叠屏Android15)]-->
   <package name="com.twitter.android" fullRule="nra:cr:rcr:nr" />
-  <!--让哔哩哔哩HD在竖屏时候也能使用[MIUI13-Hyper OS 1.0]-->
+  <!--让哔哩哔哩HD在竖屏时候也能使用[Android 12-Android14(包括折叠屏Android15)]-->
   <package name="tv.danmaku.bilibilihd" fullRule="nra:cr:rcr:nr" />
 ```
 
 ```xml
 <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
-  <!--取消微信的左右滑动调节[MIUI13-Hyper OS 1.0]-->
+  <!--取消微信的左右滑动调节[Android 12-Android14(包括折叠屏Android15)]-->
   <package name="com.tencent.mm" disable="true" isShowDivider="false" />
-  <!--让哔哩哔哩漫画以接近手机的比例去显示[MIUI13-Hyper OS 1.0]-->
+  <!--让哔哩哔哩漫画以接近手机的比例去显示[Android 12-Android14(包括折叠屏Android15)]-->
   <package name="com.bilibili.comic" relaunch="false" supportFullSize="true" ratio="1.5" />
-  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示[MIUI13-Hyper OS 1.0]-->
+  <!--让哔哩哔哩漫画以接近大折叠屏的比例去显示[Android 12-Android14(包括折叠屏Android15)]-->
   <package name="com.bilibili.comic" relaunch="false" supportFullSize="true" ratio="1.1" />
 ```
 
