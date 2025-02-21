@@ -75,7 +75,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
 ```xml
   <!--让哔哩哔哩漫画以接近大折叠屏的比例居中布局显示[Android 15+，仅平板端，折叠屏仍参考Android 12+]-->
   <!-- /data/adb/MIUI_MagicWindow+/config/fixed_orientation_list.xml-->
-  <package name="com.bilibili.comic" supportModes="full,fo" defaultSettings="fo" />
+  <package name="com.bilibili.comic" ratio="1.1" supportModes="full,fo" defaultSettings="fo" />
   <!-- /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml -->
   <setting name="com.bilibili.comic" fixedOrientationEnable="true" />
 ```
