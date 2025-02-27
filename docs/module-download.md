@@ -57,7 +57,17 @@ outline: deep
 
 模块简介：
 
-适配Android 15的Hyper OS For Pad，可以解决开启游戏显示布局后的横屏适配异常问题，如需使用游戏显示布局，必须安装该版本，移植包请选择正确的移植包机型，否则会导致卡米。
+适配Android 15的Hyper OS 2.0，可以解决开启游戏显示布局后的横屏适配异常问题，如需使用游戏显示布局，必须安装该版本，移植包请选择正确的移植包机型，否则会导致卡米。
+
+该版本存在一定的卡米风险，需要自行救砖，该版本误刷会100%卡米！！！！！！
+
+### 小米平板安卓14澎湃2.0专版(仅适配小米平板6//5 Pro 12.4)
+
+模块安装包名称：pad-hyperos2-based-on-upsideDownCake-x.xx.xx.zip
+
+模块简介：
+
+适配小米平板6/5 Pro 12.4的Hyper OS 1.0，并且会强制禁用所有小米平板专有的阻止系统反向适配平行窗口的属性(Google Embedded Activity规范除外)，因此可以额外对很多应用进行精适配。
 
 该版本存在一定的卡米风险，需要自行救砖，该版本误刷会100%卡米！！！！！！
 
@@ -105,6 +115,7 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
     -   小米折叠屏通用版(fold-x.xx.xx.zip)
     -   小米平板安卓14澎湃1.0专版(pad-hyperos1-based-on-upsideDownCake-x.xx.xx.zip)
     -   小米平板安卓15澎湃2.0专版(pad-hyperos2-based-on-vanillaIceCream-x.xx.xx.zip)
+    -   小米平板安卓14澎湃2.0专版(pad-hyperos2-based-on-upsideDownCake-x.xx.xx.zip)
     -   小米平板5系列安卓13澎湃专版(pad-hyperos-based-on-tiramisu-x.xx.xx.zip)
     -   小米平板6系列MIUI14专版(pad-miui-based-on-tiramisu-x.xx.xx.zip)
     -   自用测试版，个人测试用途，请勿下载，很不稳定(pad-ext-x.xx.xx.zip)
