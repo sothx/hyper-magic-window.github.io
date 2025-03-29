@@ -69,7 +69,7 @@ Tips: 强制横屏仅适用于平板，对于 Mix Fold 折叠屏系列，小米�
   <!-- /data/adb/MIUI_MagicWindow+/config/embedded_rules_list.xml -->
   <package name="com.tencent.qqmusic" fullRule="nra:cr:rcr:nr" />
   <!-- /data/adb/MIUI_MagicWindow+/config/embedded_setting_config.xml -->
-  <setting name="com.tencent.qqmusic" fullScreenEnable="true" ratio_fullScreenEnable="true" />
+  <setting name="com.tencent.qqmusic" fullScreenEnable="true" ratio_fullScreenEnable="false" />
 ```
 
 ```xml

@@ -37,7 +37,7 @@ outline: deep
 
 模块安装包名称：fold-x.xx.xx.zip
 
-模块简介：适配小米Mix Fold 折叠屏系列，针对MIUI For Fold/Hyper OS For Fold有独立的适配优化。
+模块简介：适配小米Mix Fold 折叠屏系列，针对MIUI For Fold/Hyper OS For Fold有独立的适配优化，提升小米手机妙享流转到小米平板的平行窗口适配体验（需要手机和平板都支持妙享桌面2.0），并提供部分系统功能增强。
 
 ### 小米平板安卓14澎湃1.0专版(仅适配小米平板6/6S Pro/6 Pro/6 Max/5 Pro 12.4，不适用于红米平板)
 
@@ -61,7 +61,7 @@ outline: deep
 
 该版本存在一定的卡米风险，需要自行救砖，该版本误刷会100%卡米！！！！！！
 
-### 小米平板安卓14澎湃2.0专版(仅适配小米平板6//5 Pro 12.4)
+### 小米平板安卓14澎湃2.0专版(仅适配小米平板6/5 Pro 12.4)
 
 模块安装包名称：pad-hyperos2-based-on-upsideDownCake-x.xx.xx.zip
 
@@ -95,11 +95,11 @@ MIUI14 For Pad的小米平板6 Max移植包可以自行在酷安搜索，不属�
 
 MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升级完成后再进行安装，否则将会导致100%卡米。
 
-### 小米手机妙享桌面版(仅适配Hyper OS 2.0)
+### 小米手机妙享流转版
 
 模块安装包名称：phone-x.xx.xx.zip
 
-模块简介：适配基于Hyper OS 2.0+的小米/红米手机，扩展并优化妙享桌面在平板或者小米汽车上流转应用后的平行窗口适配体验
+模块简介：扩展小米手机妙享流转到小米平板的平行窗口适配体验（需要手机和平板都支持妙享桌面2.0），并提供部分系统功能增强。
 
 
 ## 下载
@@ -108,10 +108,10 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
 
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
     -   小米平板安卓15测试(Beta)版(pad-x.xx.xx.zip)
-    -   小米手机妙享桌面版(phone-x.xx.xx.zip)
     -   小米平板安卓14通用版(pad-general-upsideDownCake-x.xx.xx.zip)
     -   小米平板安卓13通用版(pad-general-tiramisu-x.xx.xx.zip)
     -   小米平板安卓11通用版(pad-magicWindow-x.xx.xx.zip)
+    -   小米手机妙享流转版(phone-x.xx.xx.zip)
     -   小米折叠屏通用版(fold-x.xx.xx.zip)
     -   小米平板安卓14澎湃1.0专版(pad-hyperos1-based-on-upsideDownCake-x.xx.xx.zip)
     -   小米平板安卓15澎湃2.0专版(pad-hyperos2-based-on-vanillaIceCream-x.xx.xx.zip)
