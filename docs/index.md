@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "完美横屏应用计划"
   text: "8000+ 应用适配"
-  tagline: 适用于 Hyper OS For Pad/Fold 的Magisk模块
+  tagline: 适用于 MIUI / Hyper OS 的Magisk模块
   actions:
     - theme: brand
       text: 下载

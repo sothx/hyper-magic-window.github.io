@@ -1,7 +1,7 @@
 {
   "name": "hyper-magic-window.github.io",
   "version": "1.0.0",
-  "description": "Hyper OS For Pad/Fold Magisk Module WebSite",
+  "description": "Hyper OS Magisk Module WebSite",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
