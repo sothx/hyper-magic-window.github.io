@@ -104,7 +104,7 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
 
 ## 下载
 
--   [移动云盘下载(首选推荐)](https://caiyun.139.com/m/i?135CeBMHACC6p)
+-   [移动云盘下载(首选推荐)](https://caiyun.139.com/m/i?135CdgGlXeVEC)
 
 -   [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
     -   小米平板安卓15通用版(pad-x.xx.xx.zip)
