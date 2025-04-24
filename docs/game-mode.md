@@ -10,7 +10,7 @@ outline: deep
 
 Hyper OS 2.0+ 需要搭配修改版的手机管家/平板管家才会生效：
 
--  [移动云盘下载](https://caiyun.139.com/m/i?135CeBMHACC6p)
+-  [移动云盘下载](https://caiyun.139.com/m/i?135Cm3g2XOMGs)
 
 ## 如何使用
 
