@@ -22,6 +22,8 @@ Hyper OS 2.0+ 需要搭配修改版的手机管家/平板管家才会生效：
 
 小米平板 Android 15 Hyper OS 2
 
+模块 2.12.29+ 版本起，支持移植包主动兼容配置
+
 ### 有什么用？
 
 由于小米平板Android 15 Hyper OS 2 For Pad的系统BUG，如果不反编译修改MiuiEmbeddingWindow相关服务，使用游戏显示布局会导致小米平板应用横屏适配异常。
