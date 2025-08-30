@@ -101,7 +101,7 @@ MIUI14 For Pad的小米平板6 Max移植包可以自行在酷安搜索，不属�
 
 MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升级完成后再进行安装，否则将会导致100%卡米。
 
-### 小米手机妙享流转版
+### 小米手机轻量版
 
 模块安装包名称：phone-x.xx.xx.zip
 
@@ -118,7 +118,7 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
     -   小米平板安卓14通用版(pad-general-upsideDownCake-x.xx.xx.zip)
     -   小米平板安卓13通用版(pad-general-tiramisu-x.xx.xx.zip)
     -   小米平板安卓11通用版(pad-magicWindow-x.xx.xx.zip)
-    -   小米手机妙享流转版(phone-x.xx.xx.zip)
+    -   小米手机轻量版(phone-x.xx.xx.zip)
     -   小米折叠屏通用版(fold-x.xx.xx.zip)
     -   小米平板安卓14澎湃1.0专版(pad-hyperos1-based-on-upsideDownCake-x.xx.xx.zip)
     -   小米平板安卓15澎湃2.0专版(pad-hyperos2-based-on-vanillaIceCream-x.xx.xx.zip)
