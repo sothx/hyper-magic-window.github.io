@@ -6,9 +6,15 @@ outline: deep
 
 ## 版本说明
 
-### 小米平板安卓16通用版(仅适配Android 16)
+### 小米平板安卓17通用版(仅适配Android 17)
 
 模块安装包名称：pad-x.xx.xx.zip
+
+模块简介：适配基于Android 17的Hyper OS for Pad，以及各类基于Android 16的Hyper OS For Pad第三方移植包的机型
+
+### 小米平板安卓16通用版(仅适配Android 16)
+
+模块安装包名称：pad-general-baklava-x.xx.xx.zip
 
 模块简介：适配基于Android 16的Hyper OS for Pad，以及各类基于Android 16的Hyper OS For Pad第三方移植包的机型
 
@@ -36,7 +42,7 @@ outline: deep
 
 模块简介：适配小米平板安卓11下类华为/荣耀体系的横屏模式，仅适配安卓11，安卓11的模块暂不支持通过系统设置直接关闭某个应用的横屏模式适配(重启或者升级模块均会恢复打开状态)，可通过模块提供的[自定义规则(Beta)](https://hyper-magic-window.sothx.com/custom-config.html)来调整某个应用的横屏模式适配，如果有体验不佳的应用也可以反馈给我，在后续版本中永久移除该应用的平行视界适配。
 
-### 小米折叠屏安卓16通用版(仅小米 Mix Fold 系列)
+### 小米折叠屏安卓16-17通用版(仅小米 Mix Fold 系列)
 
 模块安装包名称：fold-x.xx.xx.zip
 
@@ -116,14 +122,15 @@ MIUI14 For Pad升级到Hyper OS For Pad之前，务必先卸载本模块，升�
 
 模块安装包名称：phone-x.xx.xx.zip
 
-模块简介：扩展小米手机妙享流转到小米平板的平行窗口适配体验（需要手机和平板都支持妙享桌面2.0），并提供部分系统功能增强。
+模块简介：提供部分手机系统功能增强。
 
 ## 下载
 
 - [移动云盘下载(首选推荐)](https://yun.139.com/shareweb/#/w/i/2v3EzdcAAyc5b)
 
 - [GitHub Release 下载](https://github.com/sothx/mipad-magic-window/releases/)
-  - 小米平板安卓16通用版(pad-x.xx.xx.zip)
+  - 小米平板安卓17通用版(pad-x.xx.xx.zip)
+  - 小米平板安卓16通用版(pad-general-baklava-x.xx.xx.zip)
   - 小米平板安卓15通用版(pad-general-vanillaIceCream-x.xx.xx.zip)
   - 小米平板安卓14通用版(pad-general-upsideDownCake-x.xx.xx.zip)
   - 小米平板安卓13通用版(pad-general-tiramisu-x.xx.xx.zip)
